@@ -1,0 +1,11 @@
+
+
+.tips {
+  @extend %columns;
+  float: left;
+}
+
+.resorts {
+  @extend %columns;
+  float: right;
+}

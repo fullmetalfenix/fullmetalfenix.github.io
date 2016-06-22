@@ -1,0 +1,56 @@
+
+
+body {
+/*sticky footer*/
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh
+}
+
+.row{
+flex: 1
+	/* stretch row to tak up all extra height*/
+}
+/* =================================
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav,
+	.row,
+	.col {
+		/*making each .col a flex container allows you
+		to justify content however you want!*/
+		display: flex;
+	}
+
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.col {
+		flex: 1;
+		/*resets items in cols to stack (default is not to for
+		flex items)*/
+		flex-direction: column;
+	}
+.button{
+	/*pushes buttons to bottom of column*/
+margin-top: auto;
+/* if you want the button not to stretch full col width:
+align-self: center  / start / end
+*/
+
+}
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

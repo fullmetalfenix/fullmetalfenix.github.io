@@ -1,0 +1,181 @@
+
+
+.jumbo{
+height: 100vh;
+/* IE11 doesn't like min-height */
+width: 100%;
+margin: 0;
+padding: 0;
+background-image: linear-gradient(rgba(255,255, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(6.jpg) ;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+display: flex;
+flex-direction: column;
+margin: auto;
+color: white;
+text-shadow: -1px -1px brown, -2px -2px yellow;
+box-shadow: .5px .5px 10px black;
+}
+.jumbo-1{
+  background-image: linear-gradient(rgba(255,255, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(6.jpg) ;
+}
+
+.jumbo-2{
+  background-image: linear-gradient(rgba(255,255, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(10.jpg) ;
+}
+
+
+ .mdl-card__title-1 {
+  color: #fff;
+   background: url(14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+      min-height: 200px;
+  }
+
+ .mdl-card__title-2 {
+    color: #fff;
+     background: url(7.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+        min-height: 200px;
+    }
+
+ .mdl-card__title-3 {
+      color: #fff;
+       background: url(16.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+          min-height: 200px;
+      }
+
+.about-pannel-1{
+  box-shadow: .5px .5px 10px black;
+}
+
+.about-panel-2{
+  box-shadow: .5px .5px 10px black;
+  background: beige;
+}
+
+.store-directions{
+  min-height: 80vh;
+}
+
+.jumbo h1{
+  margin-top: -75px
+}
+
+
+
+.footer-row {
+  background-color: rgb(121,85,72) ;
+  color: yellow;
+  min-height: 50px;
+  border-radius: 5px;
+  margin: auto ;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.jumbo__text-button {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-row{
+
+  padding: 50px 0px 50px 0px;
+}
+
+.jumbo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;;
+
+}
+
+.mdl-grid, .jumbo{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.demo-card-image.mdl-card-1,
+.demo-card-image.mdl-card-2,
+.demo-card-image.mdl-card-3  {
+  width: 80%;
+  height: auto;
+	min-height: 350px;
+	margin: auto;
+}
+.mdl-card-1{
+  background: url('5.jpg') center / cover;
+}
+
+.mdl-card-2{
+  background: url('21.jpg') center / cover;
+}
+.mdl-card-3{
+  background: url('22.jpg') center / cover;
+}
+
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+/*
+<style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+</style>
+
+
+body{
+
+  background-color: grey;
+  color: red;
+}
+
+.header{
+
+  background: rgba(0,0,0,.3);
+  font:  bold 30px/30px arial, sans-serif;
+  color: white;
+}
+.mdl-layout__header-row .mdl-navigation__link{
+  font:  bold 30px/30px arial, sans-serif;
+  color: white;
+
+}
+.mdl-layout__title, .mdl-layout-title{
+font:  bold 30/30px arial, sans-serif;
+ color: white;
+ text-shadow: 2px 2px 5px black;
+}
+
+*/

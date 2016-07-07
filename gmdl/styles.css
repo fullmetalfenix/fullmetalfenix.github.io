@@ -137,45 +137,10 @@ justify-content: center;
   font-weight: 500;
 }
 
-
-
-/*
-<style>
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('../assets/demos/welcome_card.jpg') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-</style>
-
-
-body{
-
-  background-color: grey;
-  color: red;
+.page-content {
+  padding-left: 20px;
 }
 
-.header{
-
-  background: rgba(0,0,0,.3);
-  font:  bold 30px/30px arial, sans-serif;
-  color: white;
+.mdl-layout__header{
+  clear: both;
 }
-.mdl-layout__header-row .mdl-navigation__link{
-  font:  bold 30px/30px arial, sans-serif;
-  color: white;
-
-}
-.mdl-layout__title, .mdl-layout-title{
-font:  bold 30/30px arial, sans-serif;
- color: white;
- text-shadow: 2px 2px 5px black;
-}
-
-*/

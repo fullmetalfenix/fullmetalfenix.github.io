@@ -155,8 +155,20 @@ a:active {
 .arrow {
   width: 50px;
   margin-top: 150px; }
+
   @media (max-width: 768px) {
     .arrow {
-      display: none; } }
+      display: none; }
+      .tips {
+        clear:both;
+        width: 100%; }
+
+      .resorts {
+        clear:both;
+        width: 100%; }
+     }
+
+
+
 
 /*# sourceMappingURL=application.css.map */

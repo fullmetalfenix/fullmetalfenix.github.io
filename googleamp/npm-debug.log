@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'http-server',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\Users\FullMetalFenix\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\FullMetalFenix\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'http-server', null ]
+7 verbose cache add spec http-server
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'http-server',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'http-server',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed http-server@*
+10 verbose addNamed "*" is a valid semver range for http-server
+11 silly addNameRange { name: 'http-server', range: '*', hasData: false }
+12 silly mapToRegistry name http-server
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/http-server
+16 verbose addNameRange registry:https://registry.npmjs.org/http-server not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/http-server
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 4:30:58 PM
+20 verbose request id e296e1594fe6c57a
+21 verbose etag "F1NZKFUYDMBGRX6TD2CUICE1Z"
+22 http request GET https://registry.npmjs.org/http-server
+23 http 304 https://registry.npmjs.org/http-server
+24 verbose headers { date: 'Sat, 16 Jul 2016 20:30:52 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   etag: '"F1NZKFUYDMBGRX6TD2CUICE1Z"',
+24 verbose headers   age: '254',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-jfk1046-JFK',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1468701052.445179,VS0,VE0',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 304,
+25 silly get   { date: 'Sat, 16 Jul 2016 20:30:52 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     etag: '"F1NZKFUYDMBGRX6TD2CUICE1Z"',
+25 silly get     age: '254',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-jfk1046-JFK',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1468701052.445179,VS0,VE0',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose etag https://registry.npmjs.org/http-server from cache
+27 verbose get saving http-server to C:\Users\FullMetalFenix\AppData\Roaming\npm-cache\registry.npmjs.org\http-server\.cache.json
+28 silly addNameRange number 2 { name: 'http-server', range: '*', hasData: true }
+29 silly addNameRange versions [ 'http-server',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.9',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.7.4',
+29 silly addNameRange     '0.7.5',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.8.4',
+29 silly addNameRange     '0.8.5',
+29 silly addNameRange     '0.9.0' ] ]
+30 silly addNamed http-server@0.9.0
+31 verbose addNamed "0.9.0" is a plain semver version for http-server
+32 silly cache afterAdd http-server@0.9.0
+33 verbose afterAdd C:\Users\FullMetalFenix\AppData\Roaming\npm-cache\http-server\0.9.0\package\package.json not in flight; writing
+34 verbose afterAdd C:\Users\FullMetalFenix\AppData\Roaming\npm-cache\http-server\0.9.0\package\package.json written
+35 silly install resolved [ { name: 'http-server',
+35 silly install resolved     version: '0.9.0',
+35 silly install resolved     description: 'A simple zero-configuration command-line http server',
+35 silly install resolved     main: './lib/http-server',
+35 silly install resolved     repository:
+35 silly install resolved      { type: 'git',
+35 silly install resolved        url: 'git://github.com/indexzero/http-server.git' },
+35 silly install resolved     keywords: [ 'cli', 'command' ],
+35 silly install resolved     scripts:
+35 silly install resolved      { start: 'node ./bin/http-server',
+35 silly install resolved        pretest: 'common bin/http-server lib/ test',
+35 silly install resolved        test: 'vows --spec --isolate' },
+35 silly install resolved     contributors:
+35 silly install resolved      [ [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object] ],
+35 silly install resolved     dependencies:
+35 silly install resolved      { colors: '1.0.3',
+35 silly install resolved        corser: '~2.0.0',
+35 silly install resolved        ecstatic: '^1.4.0',
+35 silly install resolved        'http-proxy': '^1.8.1',
+35 silly install resolved        opener: '~1.4.0',
+35 silly install resolved        optimist: '0.6.x',
+35 silly install resolved        portfinder: '0.4.x',
+35 silly install resolved        union: '~0.4.3' },
+35 silly install resolved     devDependencies: { 'common-style': '^3.0.0', request: '2.49.x', vows: '0.7.x' },
+35 silly install resolved     bugs: { url: 'https://github.com/nodeapps/http-server/issues' },
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     preferGlobal: 'true',
+35 silly install resolved     bin: { 'http-server': './bin/http-server', hs: './bin/http-server' },
+35 silly install resolved     gitHead: '1a8552c5e028bd5500027ee940111133927a4e94',
+35 silly install resolved     homepage: 'https://github.com/indexzero/http-server#readme',
+35 silly install resolved     _id: 'http-server@0.9.0',
+35 silly install resolved     _shasum: '8f1b06bdc733618d4dc42831c7ba1aff4e06001a',
+35 silly install resolved     _from: 'http-server@*',
+35 silly install resolved     _npmVersion: '3.7.1',
+35 silly install resolved     _nodeVersion: '4.2.2',
+35 silly install resolved     _npmUser: { name: 'indexzero', email: 'charlie.robbins@gmail.com' },
+35 silly install resolved     maintainers: [ [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: '8f1b06bdc733618d4dc42831c7ba1aff4e06001a',
+35 silly install resolved        tarball: 'https://registry.npmjs.org/http-server/-/http-server-0.9.0.tgz' },
+35 silly install resolved     _npmOperationalInternal:
+35 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+35 silly install resolved        tmp: 'tmp/http-server-0.9.0.tgz_1455864708425_0.19514421350322664' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/http-server/-/http-server-0.9.0.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install http-server@0.9.0 into C:\Users\FullMetalFenix\AppData\Roaming\npm
+37 info installOne http-server@0.9.0
+38 verbose installOne of http-server to C:\Users\FullMetalFenix\AppData\Roaming\npm not in flight; installing
+39 verbose lock using C:\Users\FullMetalFenix\AppData\Roaming\npm-cache\_locks\http-server-ad81e6af6bfeff65.lock for C:\Users\FullMetalFenix\AppData\Roaming\npm\node_modules\http-server
+40 silly install write writing http-server 0.9.0 to C:\Users\FullMetalFenix\AppData\Roaming\npm\node_modules\http-server
+41 verbose unbuild node_modules\http-server
+42 info preuninstall http-server@0.9.0
+43 info uninstall http-server@0.9.0
+44 verbose unbuild rmStuff http-server@0.9.0 from C:\Users\FullMetalFenix\AppData\Roaming\npm\node_modules
+45 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server.cmd is being gently removed
+46 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+47 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\hs.cmd is being gently removed
+48 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+49 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+50 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server.cmd is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+51 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server.cmd up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+52 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+53 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\hs.cmd is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+54 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\hs.cmd up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+55 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server is being gently removed
+56 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+57 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+58 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+59 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+60 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\hs is being gently removed
+61 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+62 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+63 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\hs is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+64 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\hs up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+65 silly vacuum-fs Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server'
+65 silly vacuum-fs     at Error (native)
+66 verbose unlock done using C:\Users\FullMetalFenix\AppData\Roaming\npm-cache\_locks\http-server-ad81e6af6bfeff65.lock for C:\Users\FullMetalFenix\AppData\Roaming\npm\node_modules\http-server
+67 verbose stack Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server'
+67 verbose stack     at Error (native)
+68 verbose cwd C:\Users\FullMetalFenix\desktop\googleamp
+69 error Windows_NT 10.0.10586
+70 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "http-server" "-g"
+71 error node v4.2.1
+72 error npm  v2.14.7
+73 error path C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server
+74 error code EPERM
+75 error errno -4048
+76 error syscall lstat
+77 error Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server'
+77 error     at Error (native)
+77 error  { [Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server']
+77 error   errno: -4048,
+77 error   code: 'EPERM',
+77 error   syscall: 'lstat',
+77 error   path: 'C:\\Users\\FullMetalFenix\\AppData\\Roaming\\npm\\http-server' }
+78 error Please try running this command again as root/Administrator.
+79 verbose exit [ -4048, true ]
+80 verbose unbuild node_modules\http-server
+81 info preuninstall http-server@0.9.0
+82 info uninstall http-server@0.9.0
+83 verbose unbuild rmStuff http-server@0.9.0 from C:\Users\FullMetalFenix\AppData\Roaming\npm\node_modules
+84 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server.cmd is being gently removed
+85 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+86 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\hs.cmd is being gently removed
+87 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+88 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+89 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server.cmd is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+90 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server.cmd up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+91 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+92 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\hs.cmd is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+93 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\hs.cmd up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+94 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server is being gently removed
+95 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+96 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+97 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+98 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+99 silly gentlyRm C:\Users\FullMetalFenix\AppData\Roaming\npm\hs is being gently removed
+100 silly gentlyRm verifying C:\Users\FullMetalFenix\AppData\Roaming\npm is an npm working directory
+101 silly gentlyRm containing path C:\Users\FullMetalFenix\AppData\Roaming\npm is under npm's control, in C:\Users\FullMetalFenix\AppData\Roaming\npm
+102 silly gentlyRm deletion target C:\Users\FullMetalFenix\AppData\Roaming\npm\hs is under C:\Users\FullMetalFenix\AppData\Roaming\npm
+103 verbose gentlyRm vacuuming from C:\Users\FullMetalFenix\AppData\Roaming\npm\hs up to C:\Users\FullMetalFenix\AppData\Roaming\npm
+104 silly vacuum-fs Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server'
+104 silly vacuum-fs     at Error (native)
+105 error error rolling back Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server'
+105 error error rolling back     at Error (native)
+105 error error rolling back  { [Error: EPERM: operation not permitted, lstat 'C:\Users\FullMetalFenix\AppData\Roaming\npm\http-server']
+105 error error rolling back   errno: -4048,
+105 error error rolling back   code: 'EPERM',
+105 error error rolling back   syscall: 'lstat',
+105 error error rolling back   path: 'C:\\Users\\FullMetalFenix\\AppData\\Roaming\\npm\\http-server' }

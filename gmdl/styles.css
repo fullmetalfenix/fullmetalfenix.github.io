@@ -137,10 +137,32 @@ justify-content: center;
   font-weight: 500;
 }
 
-.page-content {
-  padding-left: 20px;
-}
+
 
 .mdl-layout__header{
   clear: both;
+}
+
+.mdl-layout__drawer .mdl-layout-title{
+  background: rgb(255,255,0);
+  color: brown;
+  width: 100%;
+  padding-left:0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbo{
+    padding-top: 40px;
+  }
+
+  .mdl-layout__drawer .mdl-layout-title{
+    background: rgb(255,255,0);
+    color: brown;
+    width: 100%;
+    margin-left:0px;
+    padding-left:20px;
+  }
+  .mdl-layout__drawer .page-content{
+  padding-left: 20px;
+  }
 }

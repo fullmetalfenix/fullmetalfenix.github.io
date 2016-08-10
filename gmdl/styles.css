@@ -23,13 +23,13 @@ box-shadow: .5px .5px 10px black;
 }
 
 .jumbo-2{
-  background-image: linear-gradient(rgba(255,255, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(10.jpg) ;
+  background-image: linear-gradient(rgba(255,255, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(10.png) ;
 }
 
 
  .mdl-card__title-1 {
   color: #fff;
-   background: url(14.jpg);
+   background: url(14.png);
     background-size: cover;
     background-repeat: no-repeat;
       min-height: 200px;
@@ -45,7 +45,7 @@ box-shadow: .5px .5px 10px black;
 
  .mdl-card__title-3 {
       color: #fff;
-       background: url(16.jpg);
+       background: url(16.png);
         background-size: cover;
         background-repeat: no-repeat;
           min-height: 200px;

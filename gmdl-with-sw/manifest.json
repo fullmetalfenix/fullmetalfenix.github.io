@@ -1,0 +1,15 @@
+{
+  "name": "Ipsum Coffee House",
+  "short_name": "Ipsum Coffee",
+  "display": "minimal-ui",
+  "start_url": "/",
+  "theme_color": "#ffff00",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "coffee.jpg",
+      "sizes": "any",
+      "type": "image/jpg"
+    }
+  ]
+}

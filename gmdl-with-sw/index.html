@@ -4,7 +4,7 @@
 <head>
 	<title>Ipsum Coffe House</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 	<link rel="stylesheet" href="bower_components/material-design-lite//material.min.css" />
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -14,13 +14,13 @@
 	<script>
 		// Register SW Here:
 	 if(navigator.serviceWorker){
-	 navigator.serviceWorker.register('sw.js', {scope: '/gmdl/' /*Why not?*/}).then(function(reg){
+	 navigator.serviceWorker.register('sw.js', {scope: '/gmdl-with-sw/' /*Why not?*/}).then(function(reg){
 			 console.log('Horray! SW is up and running!')
 		 }).catch(function(err){
 			 console.log('Doh!');
 		 });
 	 }
-	
+
 	</script>
 	<script>
 		/*

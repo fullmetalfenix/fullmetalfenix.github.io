@@ -3,10 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FullMetalFenix's Frontend Portfolio</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Frontend Portfolio for Github user FullMetalFenix - A sample of my front end projects done privately and academically"/>
     <!-- Bootstrap CSS -->
     <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 <link async href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+<script>
+  // Register SW Here:
+ if(navigator.serviceWorker){
+ navigator.serviceWorker.register('sw.js').then(function(reg){
+     console.log('Horray! SW is up and running!')
+   }).catch(function(err){
+     console.log('Doh!');
+   });
+ }
+
+</script>
 <style>
 
 
@@ -74,11 +88,13 @@ padding: 40px;
   width: 250px;
   border-radius: 40px;
   margin-top: 40px;
-  background: #02d865;
+  background:black;
   border: none;
   box-shadow: 0px 5px 3px rgba(0,0,0,.3);
+  color: #b2ffd6 ;
   transition: background .5s
 }
+/*#02d865*/
 .btn-primary:hover{
 background: #007d3a
 }
@@ -156,7 +172,7 @@ End Google Tag Manager -->
     <img class="card-img-top img-fluid" src="./images/3d-trans.jpg" alt="Card image cap"></a>
     <div class="card-block">
       <h4 class="card-title">3D Transforms With CSS</h4>
-      <p class="card-text">Although widely regarded as the "content styling" part of the big 3 of front end web languages, CSS has slowly been leaching some of the interactive aspects away from JavaScript. Today, CSS can be used for a lot more than just styling elements and layouts. In this project, I practiced using CSS in such a way by creating these 3D presentation cubes from provided photos and divs as a dynamic way to present content.</p> <br><p style="color: red">*Not Yet Cross Browser Compatible!</p>
+      <p class="card-text">Although widely regarded as the "content styling" part of the big 3 of front end web languages, CSS has slowly been leaching some of the interactive aspects away from JavaScript. Today, CSS can be used for a lot more than just styling elements and layouts. In this project, I practiced using CSS in such a way by creating these 3D presentation cubes from provided photos and divs as a dynamic way to present content.</p> <br><p style="color: #c50f0f; text-decoration:">*Not Yet Cross Browser Compatible!</p>
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item"><i class="fa fa-desktop"></i> - Setting The Stage With Perspective And Perspective-Origin</li>
@@ -375,8 +391,7 @@ End Google Tag Manager -->
  </div>
 
     <!-- jQuery first, then Bootstrap JS. -->
-    <script async src="https://use.fontawesome.com/36f1a9b462.js"></script>
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  </body>
 </html>

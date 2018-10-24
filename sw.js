@@ -3,6 +3,22 @@ self.addEventListener('install', function(event){
         caches.open('portfolio-stuff').then(function(cache){
             return cache.addAll(
                 [
+                    'google-amp.jpg',
+                    'angular.jpg',
+                    'transforms.jpg',
+                    'jquery-plugins.jpg',
+                    'accessable.jpg',
+                    'sass-project.jpg',
+                    'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
+                    'https://fonts.googleapis.com/css?family=Prompt',
+                    '/manifest.json'	 
+                    '/',
+                    'index.html',
+                    '/index.html',
+                    'https://fullmetalfenix.github.io',
+                    'https://fullmetalfenix.github.io/index.html',
+                    'bootstrap4.jpg',
+                    '3d-trans.jpg',
                     'coffee.jpg',
                     'flexbox.jpg',
                     'blog.jpg',

@@ -1,5 +1,3 @@
-
-
 self.addEventListener('install', function(event){
     event.waitUntil(
         caches.open('portfolio-stuff').then(function(cache){

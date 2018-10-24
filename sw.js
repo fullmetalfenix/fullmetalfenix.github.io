@@ -3,11 +3,7 @@ self.addEventListener('install', function(event){
         caches.open('portfolio-stuff').then(function(cache){
             return cache.addAll(
                 [
-                    '/',
-                    'index.html',
-                    '/index.html',
-                    'https://fullmetalfenix.github.io',
-                    'https://fullmetalfenix.github.io/index.html',
+
                     'bootstrap4.jpg',
                     '3d-trans.jpg',
                     'coffee.jpg',

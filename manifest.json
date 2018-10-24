@@ -1,0 +1,20 @@
+{
+    "short_name": "R Reviews",
+    "name": "Restaurant Reviews",
+    "icons": [
+        {
+          "src": "/img/icon1.webp",
+          "type": "image/webp",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/img/icon2.webp",
+          "type": "image/webp",
+          "sizes": "512x512"
+        }
+      ],
+    "background_color": "#252831",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#3397db"
+  }

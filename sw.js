@@ -7,6 +7,9 @@ self.addEventListener('install', function(event){
                 [
                     '/',
                     'index.html',
+                    '/index.html',
+                    'https://fullmetalfenix.github.io',
+                    'https://fullmetalfenix.github.io/index.html',
                     'bootstrap4.jpg',
                     '3d-trans.jpg',
                     'coffee.jpg',

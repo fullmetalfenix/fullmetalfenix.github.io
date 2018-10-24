@@ -11,7 +11,7 @@ self.addEventListener('install', function(event){
                     'sass-project.jpg',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
-                    '/manifest.json'	 
+                    '/manifest.json',	 
                     '/',
                     'index.html',
                     '/index.html',

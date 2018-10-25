@@ -3,7 +3,7 @@ self.addEventListener('install', function(event){
         caches.open('portfolio-stuff').then(function(cache){
             return cache.addAll(
                 [
-                    'blog.jpg',
+                    '/img/blog.jpg',
                ]
             )
         })

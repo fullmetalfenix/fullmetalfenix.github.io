@@ -3,7 +3,22 @@ self.addEventListener('install', function(event){
         caches.open('portfolio-stuff').then(function(cache){
             return cache.addAll(
                 [
+                    '/',
+                    'index.html',
+                    'images/bootstrap4.jpg',
+                    'images/3d-trans.jpg',
+                    'images/coffee.jpg',
+                    'images/flexbox.jpg',
                     'images/blog.jpg',
+                    'images/google-amp.jpg',
+                    'images/angular.jpg',
+                    'images/transforms.jpg',
+                    'images/jquery-plugins.jpg',
+                    'images/accessable.jpg',
+                    'images/sass-project.jpg',
+                    'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
+                    'https://fonts.googleapis.com/css?family=Prompt',
+                    'manifest.json'	   
                ]
             )
         })

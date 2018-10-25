@@ -3,19 +3,6 @@ self.addEventListener('install', function(event){
         caches.open('portfolio-stuff').then(function(cache){
             return cache.addAll(
                 [
-                    'google-amp.jpg',
-                    'angular.jpg',
-                    'transforms.jpg',
-                    'jquery-plugins.jpg',
-                    'accessable.jpg',
-                    'sass-project.jpg',
-                    '/manifest.json',	 
-                    '/',
-                    'https://fullmetalfenix.github.io',
-                    'bootstrap4.jpg',
-                    '3d-trans.jpg',
-                    'coffee.jpg',
-                    'flexbox.jpg',
                     'blog.jpg',
                ]
             )

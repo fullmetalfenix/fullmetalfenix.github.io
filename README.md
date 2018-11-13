@@ -16,7 +16,7 @@ Independant study to learn the framework
 ##CSS3 Layouts
 Created while taking lessons at teamtreehouse.com
 
-##Blogging with Jeckll
+##Blogging with Jeckyll
 Independant study to learn the technology
 
 ##Google AMP Page

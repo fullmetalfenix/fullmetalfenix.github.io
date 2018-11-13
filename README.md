@@ -1,5 +1,8 @@
 #Projects within!
-list of projects within this frontend portfolio. Note: these are mostly older projects, for updated info please contact me directly.
+list of projects within this frontend portfolio. Note: these projects are mostly designed to expand my education on these individual technologies, for updated info concerning sites I have worked on / created please contact me directly.
+
+##Portfolio Optimization 
+Utilization of techniques practiced while obtaining my Nano Degree in mobile web development 
 
 ##Bootstrap 4 Demo Page
 Created while taking lessons at teamtreehouse.com

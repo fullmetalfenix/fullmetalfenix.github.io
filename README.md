@@ -4,6 +4,9 @@ list of projects within this frontend portfolio. Note: these projects are mostly
 ##Portfolio Optimization 
 Utilization of techniques practiced while obtaining my Nano Degree in mobile web development 
 
+##MWS Capstone App
+Capstone project in my Udacity Mobile Web Specialist curriculum
+
 ##Bootstrap 4 Demo Page
 Created while taking lessons at teamtreehouse.com
 

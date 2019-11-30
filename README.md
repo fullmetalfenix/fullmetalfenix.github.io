@@ -1,44 +1,44 @@
-#Projects within!
+# Projects within!
 list of projects within this frontend portfolio. Note: these projects are mostly designed to expand my education on these individual technologies, for updated info concerning sites I have worked on / created please contact me directly.
 
-##Portfolio Optimization 
+## Portfolio Optimization 
 Utilization of techniques practiced while obtaining my Nano Degree in mobile web development 
 
-##MWS Capstone App
+## MWS Capstone App
 Capstone project in my Udacity Mobile Web Specialist curriculum
 
-##Bootstrap 4 Demo Page
+## Bootstrap 4 Demo Page
 Created while taking lessons at teamtreehouse.com
 
-##3d Tansforms w/ CSS
+## 3d Tansforms w/ CSS
 Created while taking lessons at teamtreehouse.com
 
-##Google MDL Project
+## Google MDL Project
 Independant study to learn the framework
 
-##CSS3 Layouts
+## CSS3 Layouts
 Created while taking lessons at teamtreehouse.com
 
-##Blogging with Jeckyll
+## Blogging with Jeckyll
 Independant study to learn the technology
 
-##Google AMP Page
+## Google AMP Page
 Independant study
 
-##Angular App
+## Angular App
 Created while taking lessons at teamtreehouse.com
 
-##CSS Transitions
+## CSS Transitions
 Created while taking lessons at teamtreehouse.com
 
-##Jquery Plugins
+## Jquery Plugins
 Created while taking lessons at teamtreehouse.com
 
-##Accessibility Project
+## Accessibility Project
 Created while taking lessons at teamtreehouse.com
 
-##Sass project
+## Sass project
 Created while taking lessons at teamtreehouse.com
 
-##Popin' menu
+## Popin' menu
 Created while taking lessons at codecademy.com

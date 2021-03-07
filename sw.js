@@ -21,6 +21,7 @@ self.addEventListener('install', function(event){
                     'images/react-wordpress-headless.png',
                     '/images/mdl-pwa-proj.jpg',
                     '/images/php-site.png',
+                    '/images/amp-local.png',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
                     'manifest.json'	   

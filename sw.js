@@ -23,6 +23,7 @@ self.addEventListener('install', function(event){
                     '/images/php-site.png',
                     '/images/azure-cms-setup-2.jpg',
                     '/images/amp-local.PNG',
+                    './images/cloudflare-starter.jpg',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
                     'manifest.json'	   

@@ -1,143 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>FullMetalFenix's Frontend Portfolio</title>
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="theme-color" content="#000000"/>
-		<meta name="description" content="Frontend Playground for Github user FullMetalFenix - A sample of my front end projects done privately and academically"/>
-		<!-- Bootstrap CSS -->
-		<link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-		<link async href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<script>
-			if(navigator.serviceWorker){
-			navigator.serviceWorker.register('sw.js').then(function(reg){	
-			    console.log('Horray! SW is up and running!')
-			  }).catch(function(err){
-			    console.log('Doh!');
-			  });
-			}
-			
-		</script>
-		<style>
-			html{
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>FullMetalFenix's Frontend Portfolio</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#000000" />
+	<meta name="description"
+		content="Frontend Playground for Github user FullMetalFenix - A sample of my front end projects done privately and academically" />
+	<!-- Bootstrap CSS -->
+	<link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+		integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+	<link async href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<script>
+		if (navigator.serviceWorker) {
+			navigator.serviceWorker.register('sw.js').then(function (reg) {
+				console.log('Horray! SW is up and running!')
+			}).catch(function (err) {
+				console.log('Doh!');
+			});
+		}
+
+	</script>
+	<style>
+		html {
 			background: black;
-			}
-			.container{
+		}
+
+		.container {
 			display: flex;
 			flex-wrap: wrap;
 			padding: 0px !important;
-			}
-			.card{
+		}
+
+		.card {
 			box-shadow: 0px 0px .5px grey;
-			}
-			.list-group-item{
+		}
+
+		.list-group-item {
 			transition: .2s;
 			margin-bottom: 8px;
 			border: none;
 			background: white;
-			}
-			.list-group-item:hover{
+		}
+
+		.list-group-item:hover {
 			transform: scale(1.1);
-			box-shadow: 0px 0px 30px rgba(0,0,0,.15);
-			border-radius:20px;
-			opacity:1;
-			}
-			body{
+			box-shadow: 0px 0px 30px rgba(0, 0, 0, .15);
+			border-radius: 20px;
+			opacity: 1;
+		}
+
+		body {
 			background: whitesmoke;
 			font-size: 18px;
 			line-height: 1.5;
-			color: rgba(0,0,0,.87)
-			}
-			.fa {
+			color: rgba(0, 0, 0, .87)
+		}
+
+		.fa {
 			font-size: 20px !important;
 			color: #0275d8;
-			}
-			h1{
+		}
+
+		h1 {
 			font-family: 'Prompt', sans-serif;
 			box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
-			background: linear-gradient(90deg,#94103e 0,#db004d);
-			color: rgba(250,250,250,.87);
+			background: linear-gradient(90deg, #94103e 0, #db004d);
+			color: rgba(250, 250, 250, .87);
 			padding: 40px;
-			}
-			.card-text{
-			padding-top:20px;
-			}
-			.col-lg-4{
+		}
+
+		.card-text {
+			padding-top: 20px;
+		}
+
+		.col-lg-4 {
 			margin-bottom: 50px;
-			}
-			.card{
+		}
+
+		.card {
 			border-radius: 0px;
-			border:0px;
+			border: 0px;
 			margin-bottom: 40px;
 			height: 100%;
 			box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
-			}
-			.card-img-top{
+		}
+
+		.card-img-top {
 			border-radius: 0px;
-			}
-			.btn-primary{
+		}
+
+		.btn-primary {
 			padding: 20px;
 			font-size: 18px;
 			width: 250px;
 			border-radius: 40px;
 			margin-top: 40px;
-			background:black;
+			background: black;
 			border: none;
-			box-shadow: 0px 5px 3px rgba(0,0,0,.3);
-			color: #b2ffd6 ;
+			box-shadow: 0px 5px 3px rgba(0, 0, 0, .3);
+			color: #b2ffd6;
 			transition: background .5s
-			}
-			/*#02d865*/
-			.btn-primary:hover{
+		}
+
+		/*#02d865*/
+		.btn-primary:hover {
 			background: #007d3a
-			}
-			h3{
+		}
+
+		h3 {
 			font-size: 1.5rem;
 			background: #0275d8;
 			padding: 20px;
-			color: rgba(250,250,250, .87);
-			box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+			color: rgba(250, 250, 250, .87);
+			box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
 			text-align: center;
-			}
-			.intro{
+		}
+
+		.intro {
 			max-width: 800px;
-    			text-indent: 2em;
-    			margin: 60px auto;
+			text-indent: 2em;
+			margin: 60px auto;
+		}
+
+		@media only screen and (max-width: 800px) {
+			.intro {
+				max-width: 800px;
+				text-indent: 1em;
+				margin: 60px 20px;
+				font-size: 20px;
 			}
-			@media only screen and (max-width: 800px){
-			.intro{
-			max-width: 800px;
-			text-indent: 1em;
-		        margin: 60px 20px;
-    			font-size: 20px;
-			}
-			}
-			@media only screen and (min-width: 1200px){
-			
+		}
+
+		@media only screen and (min-width: 1200px) {
+
 			.container {
-			max-width: 1400px;
+				max-width: 1400px;
 			}
-			}
-		</style>
-		<!--Google Analytics Code -->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			
-			ga('create', 'UA-82862644-1', 'auto');
-			ga('send', 'pageview');
-			
-		</script>
-		<!-- End Google Analytics Code -->
-	</head>
-	<body>
-		<!-- Google Tag Manager commented out
+		}
+	</style>
+	<!--Google Analytics Code -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-82862644-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<!-- End Google Analytics Code -->
+</head>
+
+<body>
+	<!-- Google Tag Manager commented out
 			<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PNXDMF"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -146,421 +169,626 @@
 			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 			})(window,document,'script','dataLayer','GTM-PNXDMF');</script>
 			End Google Tag Manager -->
-		<h1 class="text-xs-center m-y-3 text-uppercase">Frontend Playground</h1>
-		<h2 class="text-xs-center m-y-3 ">A Few Case Studies From Personal Experiments and Accedemic Lessons.</h2>
-		<p class="intro">I think it's safe to say that a lot of web developers spend a lot of time working on projects that are never meant to be released. Some projects are done to further understanding of a new framework / library / concept, some to brush up on something learned already and some are just for fun. Some projects are built during educational coursework / workshops, some built on top of those types of projects - taking them further along and some are just messing around with a new framework / library to see what it's all about. Here is a showcase of those types of projects that I've worked on myself.   </p>
-		<div class="container">
-			<!--Front End Portfolio Project        -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card blue">
-					<a href="/">
+	<h1 class="text-xs-center m-y-3 text-uppercase">Frontend Playground</h1>
+	<h2 class="text-xs-center m-y-3 ">A Few Case Studies From Personal Experiments and Accedemic Lessons.</h2>
+	<p class="intro">I think it's safe to say that a lot of web developers spend a lot of time working on projects that
+		are never meant to be released. Some projects are done to further understanding of a new framework / library /
+		concept, some to brush up on something learned already and some are just for fun. Some projects are built during
+		educational coursework / workshops, some built on top of those types of projects - taking them further along and
+		some are just messing around with a new framework / library to see what it's all about. Here is a showcase of
+		those types of projects that I've worked on myself. </p>
+	<div class="container">
+		<!--Front End Portfolio Project        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="/">
 					<img class="card-img-top img-fluid" src="./images/git-fep.jpg" alt="Card image cap"></a>
-					<div class="card-block blue ">
-						<h3 class="card-title blue">Frontend Portfolio Site</h3>
-						<p class="card-text blue">How meta right? Well when I was thinking of a project to revamp and add here to show a few of the optimization techniques I know of I thought why not keep it simple, I mean your already here right? As you can see from the picture, this page itself has a score of 100 in each of the categories lighthouse audits: Performance, PWAs, Accessibility, Best Practices and SEO. Don't take my word for it though, run the tests yourself by opening the chrome dev tools, going to the audit tab and click "run audits"! (psst: its 5x 100 on mobile too!)</p> 
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item blue"><i class="fa fa-arrows-h"></i> - Performance: Small scale site, good hosting enviornment and 0kb network payload on subsequent visits</li>
-						<li class="list-group-item"><i class="fa fa-wifi"></i> - PWA: Service workers servin' up content while offline, defined manafest/styles and fast load time on 3G. </li>
-						<li class="list-group-item"><i class="fa fa-low-vision"></i> - Accessibility: Color-wise, Attribute-wise, Namming-wise, Structure-wise and Metatag-wise.</li>
-						<li class="list-group-item"><i class="fa fa-pencil-square-o"></i> - Best Practices: A little bit of planning goes a long way.</li>
-						<li class="list-group-item"><i class="fa fa-line-chart"></i> - SEO: mobile friendly, descriptive links, readable fonts and an all inclusive robots.txt .</li>
-					</ul>
-					<div class="card-block">
-						<a href="#" class="btn btn-primary center-block">View Project</a>
-					</div>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">Frontend Portfolio Site</h3>
+					<p class="card-text blue">How meta right? Well when I was thinking of a project to revamp and add
+						here to show a few of the optimization techniques I know of I thought why not keep it simple, I
+						mean your already here right? As you can see from the picture, this page itself has a score of
+						100 in each of the categories lighthouse audits: Performance, PWAs, Accessibility, Best
+						Practices and SEO. Don't take my word for it though, run the tests yourself by opening the
+						chrome dev tools, going to the audit tab and click "run audits"! (psst: its 5x 100 on mobile
+						too!)</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-arrows-h"></i> - Performance: Small scale site,
+						good hosting enviornment and 0kb network payload on subsequent visits</li>
+					<li class="list-group-item"><i class="fa fa-wifi"></i> - PWA: Service workers servin' up content
+						while offline, defined manafest/styles and fast load time on 3G. </li>
+					<li class="list-group-item"><i class="fa fa-low-vision"></i> - Accessibility: Color-wise,
+						Attribute-wise, Namming-wise, Structure-wise and Metatag-wise.</li>
+					<li class="list-group-item"><i class="fa fa-pencil-square-o"></i> - Best Practices: A little bit of
+						planning goes a long way.</li>
+					<li class="list-group-item"><i class="fa fa-line-chart"></i> - SEO: mobile friendly, descriptive
+						links, readable fonts and an all inclusive robots.txt .</li>
+				</ul>
+				<div class="card-block">
+					<a href="#" class="btn btn-primary center-block">View Project</a>
 				</div>
 			</div>
-			<!-- Udacity Capstone Project        -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card blue">
-					<a href="/">
-					<img class="card-img-top img-fluid" src="./images/app.png" alt="Card image cap"></a>
-					<div class="card-block blue ">
-						<h3 class="card-title blue">MWS Capstone Project</h3>
-						<p class="card-text blue">This web app was designed to be mobily responsive, have a high degree of accessibility and runs on a nodejs development server provided for me in my completion of a Udacity Mobile web Specialist Nanodegree, competed for and granted to me as a scholarship from Google. With a backend hosted on Heroku and a front end on Netlify it has many of the trademark features of Progressive Web Apps, such as (After the initial page-load / API calls:):</p>
-						<p style="color: #c50f0f; text-decoration:">*This DB for this project is set up on Heroku's free tier and is spun up after loading. You will need to reload the page a few seconds after opening it to load data. It's also ephemeral so it won't save your choices for longer than a few hours. </p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item blue"><i class="fa fa-fast-forward"></i> - The DOM content loaded at .107s and a total page load of .5s</li>
-						<li class="list-group-item"><i class="fa fa-briefcase"></i> - A service worker serves content to any pages previously visited, even when offline. </li>
-						<li class="list-group-item"><i class="fa fa-database"></i> - Restaurants and Reviews are stored in a browser based database (indexDB) so they load regardless of issues with internet connectivity.</li>
-						<li class="list-group-item"><i class="fa fa-plug"></i> - The review form checks for a connection - if one is not found, it defers and stores form data until re-connection then sends it along as a JSON object.</li>
-						<li class="list-group-item"><i class="fa fa-toggle-on"></i> - Once a favorite is toggled, it sends info to the API to keep it persistently marked as such.</li>
-					</ul>
-					<div class="card-block">
-						<a href="https://sharp-euclid-85f5a5.netlify.com/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			
-			
-			<!-- React Headless Wordpress-->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="https://github.com/fullmetalfenix/headless-wordpress-skeleton" >
-					<img class="card-img-top img-fluid" src="./images/react-wordpress-headless.png" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Headless Wordpress With React</h3>
-						<p class="card-text">I started this project to experiment with WordPresses built in API.  Having built quite a few WordPress sites myself and having worked on many more I feal extremely familiar with the back end dashboard of WP so using it for a headless CMS really appealed to me. This from scratch project is a barebones, two file, headless wordpress setup using react via cdn that should take only a minute or two to set up. Want to 
-							about the two step set up of this project? Click here to <a href="https://github.com/fullmetalfenix/headless-wordpress-skeleton" alt="read more link to a github repo for this project">read more about this project</a> or take a look yourself with the "View Project" link below</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-desktop"></i> - React.js on the front end - customize the presentation all you want!.</li>
-						<li class="list-group-item"><i class="fa fa-server"></i> - WordPress on the back end (frontend data curtisey of the WordPress API)- the WP dash we all know for managing your data</li>
-						<li class="list-group-item"><i class="fa fa-thumbs-up"></i> - Want to ditch the front end for something else? Want to keep the Frontend and change the backend to something better suited to new buisness needs? Be my guest! The modular nature of a headless CMS means you dont have to start everything from scratch if you want a change - you can just adjust it to fit a new front or back end. </li>
-						<li class="list-group-item"><i class="fa fa-wordpress"></i> - Designed to be a <5min install using CDN's for React.js and Babel.js with only 2 pages to add to a classic WP instalation</li>
-					</ul>
-					<div class="card-block">
-						<a href="http://tryingout.s437.sureserver.com" class="btn btn-primary center-block">View Project</a> 
-					</div>
-				</div>
-			</div>
-			
-							
-							
-			<!-- Amp Local Landing Page-->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="https://github.com/fullmetalfenix/amp-local-landing-page" >
-					<img class="card-img-top img-fluid" src="./images/amp-local.PNG" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">A.M.P. Local Landing Page</h3>
-						<p class="card-text">Google has spent alot of time and money into reaserching users and have decided that, guess what, users like fast websites. Googles Accelerated Mobile Pages (A.M.P.) specification was developed with speed and a smooth, non-jittery page load in mind. According go Google: "Faster landing pages typically lead to more conversions" and "Landing page experience is an important factor for your Quality Score and Ad Rank". What does that mean? Not only are your users more likely to convert but with a higher Quality Score your PPC Ads will rank higher - leading to better posible page position and cheeper overall campaign costs! This project was undertaken to create a boilerplate of BowlerHats "ideal local landing page" just beceause I wanted to test out some of AMP's components. Read more in the projects repo by clicking below.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-google"></i> - Googles AMP pages are FAST! Especially when served from the AMP cache which is free for amp pages.</li>
-						<li class="list-group-item"><i class="fa fa-address-card"></i> - AMP specific dynamic features are designed to reduce on load times and render blocking scripts while still offering interactions users are used to.</li>
-						<li class="list-group-item"><i class="fa fa-smile-o"></i> - Testimonial sliders, Maps, Social Media buttons and other landing page staples are all posible within the AMP framework.</li>
-						<li class="list-group-item"><i class="fa fa-money"></i> -  Ad campaigns can have higher conversions with a higher Ad quality score resulting in a higher R.O.I. and lower C.P.A.!</li>
-					</ul>
-					<div class="card-block">
-						<a href="https://github.com/fullmetalfenix/amp-local-landing-page" class="btn btn-primary center-block">View Project</a> 
-					</div>
-				</div>
-			</div>
-			
-			<!-- Google MDL PWA-->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="https://github.com/fullmetalfenix/mdl_pwa_trial" >
-					<img class="card-img-top img-fluid" src="./images/mdl-pwa-proj.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Google MDL 2.0</h3>
-						<p class="card-text">This project is an updated version of an older project listed below. I referb'd this project to turn it into a Progressive Web App, Adding a service worker to cache all reqested resources. Why? TLDR: so it can still work offline. Want to know more - I wrote up a whole thing on it! Check it out by clicking "View Project" below:</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-google"></i> - Designed Around Google's Material Design Specifications.</li>
-						<li class="list-group-item"><i class="fa fa-google-plus-square"></i> - A Framework Focused On Design!</li>
-						<li class="list-group-item"><i class="fa fa-fighter-jet"></i> - Faaaast! After a fairly small initial pageload, subsequent visits can take under half-of-a-half-of-a-second to load!</li>
-						<li class="list-group-item"><i class="fa fa-ban"></i> - Load it once and its cached - the page, the assets, the external assets - everything!  Once you visit a page you can revisit, even if offline. </li>
-					</ul>
-					<div class="card-block">
-						<a href="https://github.com/fullmetalfenix/mdl_pwa_trial" class="btn btn-primary center-block">View Project</a> 
-					</div>
-				</div>
-			</div>
-
-			
-			<!-- Azure CMS Setup        -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card blue">
-					<a href="https://github.com/fullmetalfenix/azure-cms-setup">
-					<img class="card-img-top img-fluid" src="./images/azure-cms-setup-2.jpg" alt="Card image cap"></a>
-					<div class="card-block blue ">
-						<h3 class="card-title blue">Azure CMS Setup</h3>
-						<p class="card-text blue">In this project that was completed as part of my Azure Developer Nanodegree coursework at Udacity I was given a Python / Flask CMS and tasked with deploying it to a webapp / managed Paas service. First I had to add an azure SQL Server instance / Database for storing articles and users, then add a blob storage container for the article images and lastly I had to add 'Sign in with Microsoft' functionality through the MSAL, logging successful and unsuccessful login attempts. Although the project is not live (leaving some resources live in Azure = $) I have linked to a repo with some of the code (notably the MSAL implementation) as well as some screenshots from the project as well as a write up required that outlines some of the choices I made concerning the applications hosting.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item blue"><i class="fa fa-database"></i> - Hooked up a SQL Server / Database instance in Azure to this CMS Framework provided</li>
-						<li class="list-group-item"><i class="fa fa-server"></i> - Got the application code up and running on a webapp instance (No more bare-bones server management and updates required!).</li>
-						<li class="list-group-item"><i class="fa fa-windows"></i> - Implimented Authentication through the Microsoft Authentication Library (MSAL)</li>
-						<li class="list-group-item"><i class="fa fa-pencil"></i> - Logged successful & unsuccessful login attempts for security monitoring.</li>
-					</ul>
-					<div class="card-block">
-						<a href="https://github.com/fullmetalfenix/azure-cms-setup" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-
-
-
-
-
-			<!--Bootstrap 4 project        -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card blue">
-					<a href="./conf layout/index.html">
-					<img class="card-img-top img-fluid" src="./images/bootstrap4.jpg" alt="Card image cap"></a>
-					<div class="card-block blue ">
-						<h3 class="card-title blue">Bootstrap 4</h3>
-						<p class="card-text blue">Bootstrap 3 Is Twitter's widely adopted mobile first framework for laying out and styling content on the web quickly and responsively. The upcoming release of Bootstrap 4 adds some new features as well as some changes to older legacy functionality. This project was done to familiarize myself with the upcoming specifications for the Bootstrap 4 Framework.
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item blue"><i class="fa fa-twitter"></i> - New Intuitive Syntax For Legacy Twitter Bootstrap 3.0 Features</li>
-						<li class="list-group-item"><i class="fa fa-align-center"></i> - New Utility Classes For Content Layout & Spacing</li>
-						<li class="list-group-item"><i class="fa fa-plus-circle"></i> - New Component Classes</li>
-						<li class="list-group-item"><i class="fa fa-file-text-o"></i> - New Ways To Layout Forms And New Custom Form Controls</li>
-					</ul>
-					<div class="card-block">
-						<a href="./conf layout/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!--  3d transforms project  -->
-			<div class="col-md-12 hidden-sm-down col-lg-4">
-				<div class="card">
-					<a href="./3d-transforms/index.html" >
-					<img class="card-img-top img-fluid" src="./images/3d-trans.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">3D Transforms With CSS</h3>
-						<p class="card-text">Although widely regarded as the "content styling" part of the big 3 of front end web languages, CSS has slowly been leaching some of the interactive aspects away from JavaScript. Today, CSS can be used for a lot more than just styling elements and layouts. In this project, I practiced using CSS in such a way by creating these 3D presentation cubes from provided photos and divs as a dynamic way to present content.</p>
-						<br>
-						<p style="color: #c50f0f; text-decoration:">*Not Yet Cross Browser Compatible!</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-desktop"></i> - Setting The Stage With Perspective And Perspective-Origin</li>
-						<li class="list-group-item"><i class="fa fa-clock-o"></i> - Deciding On Transition Timing.</li>
-						<li class="list-group-item"><i class="fa fa-eye"></i> - Controlling Visibility</li>
-						<li class="list-group-item"><i class="fa fa-repeat"></i> - Setting Transforms To Rotate And Position Content.</li>
-					</ul>
-					<div class="card-block">
-						<a href="./3d-transforms/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-
-			<!--  3d transforms project  -->
-			<div class="col-md-12 hidden-sm-down col-lg-4">
-				<div class="card">
-					<a href="https://github.com/fullmetalfenix/php" >
-					<img class="card-img-top img-fluid" src="./images/php-site.png" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">PHP / Bootstrap Site</h3>
-						<p class="card-text">This project was created from scratch to demo some PHP and Bootstrap. I'm just demo-ing some of the standard bootstrap stuff and some PHP for pulling together a site with a few templates, partials etc. I've done a few things here I wouldn't recomend such as adding an unnessisary loop for the homepage and have not expanded / abstracted as much as I might have if this wasn't a <i>very basic</i> demo.</p>
-						<br>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-scissors"></i> - Templated out site for modularity, code reusability and easy maintenence</li>
-						<li class="list-group-item"><i class="fa fa-building-o"></i> - Utilizes Bootstrap 4 for site structure.</li>
-						<li class="list-group-item"><i class="fa fa-location-arrow "></i> - Basic PHP form with a redirect to a thank you page</li>
-						<li class="list-group-item"><i class="fa fa-snowflake-o"></i> - Added some cool CSS effects (Knockout text, Slider shadow).</li>
-					</ul>
-					<div class="card-block">
-						<a href="https://github.com/fullmetalfenix/php" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-
-
-
-
-			<!-- Google MDL Site-->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="gmdl/index.html" >
-					<img class="card-img-top img-fluid" src="./images/coffee.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Google MDL project</h3>
-						<p class="card-text">Google Material Design Specifications are out alerting designers to Googles preferred and recommended design specs. After reading through the Material Design specifications I wanted to use what I had learned in a project and luckily I found a framework that would allow me to easily do so! I chose to do this project in Google MDL (Material Design Lite) because it was designed in close co-operation with Googles own Chrome UX and Material Design teams. This framework is even used in some of Google's own properties!</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-google"></i> - Designed Around Google's Material Design Specifications.</li>
-						<li class="list-group-item"><i class="fa fa-balance-scale"></i> - A Framework Focused On Design!</li>
-						<li class="list-group-item"><i class="fa fa-mobile"></i> - Site Created In A Mobile Mindset.</li>
-						<li class="list-group-item"><i class="fa fa-object-group"></i> - Styled Elements Like Cards And Nav-bars.</li>
-					</ul>
-					<div class="card-block">
-						<a href="gmdl/index.html" class="btn btn-primary center-block">View Project</a> 
-					</div>
-				</div>
-			</div>
-			<!-- flexbox -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="./flexbox/index.html">
-					<img class="card-img-top img-fluid" src="./images/flexbox.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">CSS3 Layouts Using Flexbox</h3>
-						<p class="card-text">
-						<p>Can we finally admit that some CSS layout techniques are a bit of a hack in that they were developed using styling in a way it wasn't really intended for? Good. Now that that's over and flexbox specifications have been stabilized a bit more we can move on to using flexbox for layouts like I have learned to do while working on this project here.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-exchange"></i> - Accessibility Friendly Content Ordering! You Can Finally Re-arrange Content Independent Of The Markup! This Is Great News For Screen-reader Accessibility Fanatics.</li>
-						<li class="list-group-item"><i class="fa fa-columns"></i> - Controlling Container Spacing And Element Alignment (Vertical Centering Too!)</li>
-						<li class="list-group-item"><i class="fa fa-tasks"></i> - Navs, Cols, Sticky Footers, You Name It! Flexbox Can Simplify Many Previously Tricky CSS Based Elements.  </li>
-					</ul>
-					<div class="card-block">
-						<a href="./flexbox/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!-- Jekyll -->
-			<div class="col-md-6 col-lg-4">
-				<div class="card">
-					<a href="http://riselikefenix.github.io/playtendbox">
-					<img class="card-img-top img-fluid" src="./images/blog.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Blogging With Jekyll!</h3>
-						<p class="card-text">When my brother needed a blog for his video game podcast, I saw it as the perfect excuse to learn to use  Jekyll. Jekyll is a html template engine that uses markdown syntax for to easily create blogpost and is easy to learn, even for non technically inclined people. The best part? You can host and update Jekyll blogs on Github for free! *Sidenote, please don't hold me responsible for any of his content ':/
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-keyboard-o"></i> - Installing, Setting Up and Configuring A Jekyll blog.</li>
-						<li class="list-group-item"><i class="fa fa-cogs"></i> - Jekyll Uses The Liquid Templating Language To Bring Partials Together Into A Working Site.</li>
-						<li class="list-group-item"><i class="fa fa-magic"></i> - YAML Front Matter Blocks Followed By Markdown Formatted Content Can Easily Create New Static Post Pages Without Touching The HTML.</li>
-						<li class="list-group-item"><i class="fa fa-terminal"></i> - No CMS Or Database Needed! Github Acts As A Defacto CMS, And No Database Means Fewer Chances For Errors To Occur.</li>
-					</ul>
-					<div class="card-block">
-						<a href="http://riselikefenix.github.io/playtendbox" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!-- AMP -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="./googleamp/index.html">
-					<img class="card-img-top img-fluid" src="./images/google-amp.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Google AMP </h3>
-						<p class="card-text">Google's new Accelerated Mobile Pages specifications are, in a way, a throwback to 90's web design adapted to bolster user experience in matters concerning modern mobile web surfing.  In this project I familiarized myself with some of AMPs specifications and capabilities. </p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-rocket"></i> - Embedded styles, Predefined Image Size And Extremely Limited JavaScript Usage Make For An Extremely Fast Mobile Experience. </li>
-						<li class="list-group-item"><i class="fa fa-link"></i> - AMP Pages Link From, Not Replace, Your Traditional Pages To Increase Your Mobile Users Experience.</li>
-						<li class="list-group-item"><i class="fa fa-bolt"></i> - You Can Add & Configure AMP Extensions For Common Elements But With Speedy, Lightweight, Mobile Friendly Functionality.</li>
-						<li class="list-group-item"><i class="fa fa-check-square-o"></i> - You Can Easily Check Page Validation By Adding "<code>#development=1</code>" To The End Of An AMP Page's URL!</li>
-					</ul>
-					<div class="card-block">
-						<a href="./googleamp/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!--     Angular App   -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="./angular/index.html">
-					<img class="card-img-top img-fluid" src="./images/angular.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Angular App</h3>
-						<p class="card-text">Angular is Google's flavor of JavaScript MVC frameworks used for quickly developing single page web applications. In this project I familiarized myself with the declarative nature of developing within the Angular framework and learned more about client side application frameworks in general.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-file-word-o"></i> - Filling A Template/View With Data Using (Scoped) Controllers And Directives!</li>
-						<li class="list-group-item"><i class="fa fa-smile-o"></i> - Making Commen Tasks Easy With Angulars Built In Directives Or Make Your Own Custom Ones!</li>
-						<li class="list-group-item"><i class="fa fa-server"></i> -  Using Services to Request, Update And Create New Data.</li>
-					</ul>
-					<div class="card-block">
-						<a href="./angular/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!-- transitions / transforms -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="css_transitions/index.html">
-					<img class="card-img-top img-fluid" src="./images/transforms.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">CSS3 Transitions and Transforms</h3>
-						<p class="card-text">
-						<p>Transforms and transitions are designed to "delight" the user, give feedback based on interactions and provide information on element states. CSS3 makes it easy to add interactive elements to webpages without bloating markup with unnecessary JavaScript</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-spinner"></i> - Control Animation Transition Timing, Speed, And Delay. </li>
-						<li class="list-group-item"><i class="fa fa-outdent"></i> - Scale, Translate, Slide And Position Elements.</li>
-						<li class="list-group-item"><i class="fa fa-users"></i> - Increase User Interaction With Site Using Pleasing Responses And Visual Cues Based On User Actions.</li>
-					</ul>
-					<div class="card-block">
-						<a href="css_transitions/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!-- jquery -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="jquery-page/index.html">
-					<img class="card-img-top img-fluid" src="./images/jquery-plugins.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Websites With jQuery Plugins</h3>
-						<p class="card-text">jQuery is a powerful library for adding cross browser compatible interactive features to your sites, but what happens when it fails to have a feature your looking for? You could write it yourself, but an even easier, quicker option is to use high quality well supported jQuery plugins. In this project I learned to do just that.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-plug"></i> - Selecting Well Supported, High Quality jQuery Plugins With Easy To Understand Documentation.</li>
-						<li class="list-group-item"><i class="fa fa-refresh"></i> - Incorporating And Configuring A Plugin For A Simple Full Page Animated Transition Between Pages.</li>
-						<li class="list-group-item"><i class="fa fa-upload"></i> - Using Plugins To Add A Sticky Navigation Bar.</li>
-						<li class="list-group-item"><i class="fa fa-picture-o"></i> - Using Plugins To Crete A Carousel To Display The Sites Main Features</li>
-					</ul>
-					<div class="card-block">
-						<a href="jquery-page/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!-- accessability project -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="./accessable/index.html">
-					<img class="card-img-top img-fluid" src="./images/accessable.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Website Accessibility Concerns</h3>
-						<p class="card-text">As the Internet of things expands accessibility concerns become more and more important. As people become more dependent on the web for important tasks, information dispersion and entertainment hearing, vision and mobility concerns need to be addressed. In this project I continued my education concerning some of these issues.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-low-vision"></i> - Hi Contrasting Colors To Aid With Some Color Impairments</li>
-						<li class="list-group-item"><i class="fa fa-blind"></i> - Screen Reader Friendly Content For Some Vision Impairments</li>
-						<li class="list-group-item"><i class="fa fa-universal-access"></i> - Accessible Markup For Forms, Tables And Other Data Presentation Tools.</li>
-					</ul>
-					<div class="card-block">
-						<a href="./accessable/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!-- Sass Project-->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="./sass-project/index.html">
-					<img class="card-img-top img-fluid" src="./images/sass-project.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Gettin Sass(y) </h3>
-						<p class="card-text">
-						<p>The Syntactically Awesome Style Sheet Language Describes itself as "CSS With Superpowers" and although I love the cleaver things you can do with CSS, I agree the options SASS adds can supercharge the organization of your CSS. This project was fist done as a refresher on CSS layout and styling techniques, and then re-factored to get used to using the Sass CSS preprocessor.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-arrows-alt"></i> - Setting Up A SASS Environment</li>
-						<li class="list-group-item"><i class="fa fa-sitemap"></i> - Using Partials And Imports To Organize Code</li>
-						<li class="list-group-item"><i class="fa fa-sort-amount-desc"></i> - Using Variables & Mixins To Make Code Even DRYer</li>
-						<li class="list-group-item"><i class="fa fa-retweet"></i> - Identifying Common Code Patterns For Reusable Mix-ins With Arguments That Dynamically Alter CSS Values. </li>
-						<li class="list-group-item"><i class="fa fa-file-code-o"></i> - Defining outputted CSS formatting for optimization during development & production. </li>
-					</ul>
-					<div class="card-block">
-						<a href="./sass-project/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!--   slide in menu     -->
-			<div class="col-md-12 col-lg-4">
-				<div class="card">
-					<a href="./popin-menu/index.html" >
-					<img class="card-img-top img-fluid" src="./images/side-menu.jpg" alt="Card image cap"></a>
-					<div class="card-block">
-						<h3 class="card-title">Popin' Menu Using jQuery</h3>
-						<p class="card-text">Practice Makes Perfect! jQuery provides an easy way of adding a togglable (and trendy) off-screen navigation that slides in from the side.</p>
-					</div>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><i class="fa fa-usd"></i> - Initial Setup Of The Skeleton For The Program Using $(document).ready().</li>
-						<li class="list-group-item"><i class="fa fa-location-arrow"></i> - Using The click() Function To Capture User Interaction.</li>
-						<li class="list-group-item"><i class="fa fa-arrow-circle-o-right"></i> - Animate A Menu Located Offscreen To Slide Into And Out Of The Browser Window.</li>
-					</ul>
-					<div class="card-block">
-						<a href="./popin-menu/index.html" class="btn btn-primary center-block">View Project</a>
-					</div>
-				</div>
-			</div>
-			<!--/ main container  -->
 		</div>
-		<!-- jQuery first, then Bootstrap JS. -->
-		<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh3U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->  
-	</body>
+
+
+
+		<!-- React Headless Wordpress-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/headless-wordpress-skeleton">
+					<img class="card-img-top img-fluid" src="./images/react-wordpress-headless.png"
+						alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Headless Wordpress With React</h3>
+					<p class="card-text">I started this project to experiment with WordPresses built in API. Having
+						built quite a few WordPress sites myself and having worked on many more I feal extremely
+						familiar with the back end dashboard of WP so using it for a headless CMS really appealed to me.
+						This from scratch project is a barebones, two file, headless wordpress setup using react via cdn
+						that should take only a minute or two to set up. Want to
+						about the two step set up of this project? Click here to <a
+							href="https://github.com/fullmetalfenix/headless-wordpress-skeleton"
+							alt="read more link to a github repo for this project">read more about this project</a> or
+						take a look yourself with the "View Project" link below</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-desktop"></i> - React.js on the front end - customize
+						the presentation all you want!.</li>
+					<li class="list-group-item"><i class="fa fa-server"></i> - WordPress on the back end (frontend data
+						curtisey of the WordPress API)- the WP dash we all know for managing your data</li>
+					<li class="list-group-item"><i class="fa fa-thumbs-up"></i> - Want to ditch the front end for
+						something else? Want to keep the Frontend and change the backend to something better suited to
+						new buisness needs? Be my guest! The modular nature of a headless CMS means you dont have to
+						start everything from scratch if you want a change - you can just adjust it to fit a new front
+						or back end. </li>
+					<li class="list-group-item"><i class="fa fa-wordpress"></i> - Designed to be a <5min install using
+							CDN's for React.js and Babel.js with only 2 pages to add to a classic WP instalation</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/headless-wordpress-skeleton" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Cloudflare Summer Developers Challinge        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="/">
+					<img class="card-img-top img-fluid" src="./images/cloudflare-starter.jpg" alt="Card image cap"></a>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">Cloudflare Developers Challange</h3>
+					<p class="card-text blue">This project was done as part of the Cloudflare Developers Summer Challenge 2021. Participants were tasked with creating a project that used at least two technologies from Cloudflare's developer platform - for this project I chose Cloudflare Pages and Cloudflare workers. Cloudflare pages was used for static site hosting and Cloudflare workers was used for 'serverlessly' processing the form. I used AMP to code the page as Cloudflare pages is known for its speed and so is AMP. I had to customize the response headers a bit as AMP can be VERY rigid with its form processing rules and I used the SendGrid API to trigger an email on form submission that sends out a link to the repo on Github.  
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-github-alt"></i> - Cloudflare Pages static hosting on it's edge network uses facilitates continuous integration and deployment - it deploys straight from Github!</li>
+					<li class="list-group-item"><i class="fa fa-level-up"></i> - AMP helps keep the projects lighthouse score high. </li>
+					<li class="list-group-item"><i class="fa  fa-clock-o"></i> - The serverless contact form is processed by Cloudflare workers - features 0ms cold starts as well as local development and testing with the Wrangler CLI!.
+					</li>
+					<li class="list-group-item"><i class="fa fa-mail-forward"></i> - Once the form is processed - uses SendGrid to send out an email with the repo link and triggers an asynchronous success / failure response for the user in the browser.</li>
+					<li class="list-group-item"><i class="fa fa-money"></i> - Couldn't really be less expensive - all operating on free tiers!</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://cloudflare-project-ejc.pages.dev/"
+						class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Udacity Capstone Project        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="/">
+					<img class="card-img-top img-fluid" src="./images/app.png" alt="Card image cap"></a>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">MWS Capstone Project</h3>
+					<p class="card-text blue">This web app was designed to be mobily responsive, have a high degree of
+						accessibility and runs on a nodejs development server provided for me in my completion of a
+						Udacity Mobile web Specialist Nanodegree, competed for and granted to me as a scholarship from
+						Google. With a backend hosted on Heroku and a front end on Netlify it has many of the trademark
+						features of Progressive Web Apps, such as (After the initial page-load / API calls:):</p>
+					<p style="color: #c50f0f; text-decoration:">*This DB for this project is set up on Heroku's free
+						tier and is spun up after loading. You will need to reload the page a few seconds after opening
+						it to load data. It's also ephemeral so it won't save your choices for longer than a few hours.
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-fast-forward"></i> - The DOM content loaded at
+						.107s and a total page load of .5s</li>
+					<li class="list-group-item"><i class="fa fa-briefcase"></i> - A service worker serves content to any
+						pages previously visited, even when offline. </li>
+					<li class="list-group-item"><i class="fa fa-database"></i> - Restaurants and Reviews are stored in a
+						browser based database (indexDB) so they load regardless of issues with internet connectivity.
+					</li>
+					<li class="list-group-item"><i class="fa fa-plug"></i> - The review form checks for a connection -
+						if one is not found, it defers and stores form data until re-connection then sends it along as a
+						JSON object.</li>
+					<li class="list-group-item"><i class="fa fa-toggle-on"></i> - Once a favorite is toggled, it sends
+						info to the API to keep it persistently marked as such.</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://sharp-euclid-85f5a5.netlify.com/index.html"
+						class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Amp Local Landing Page-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/amp-local-landing-page">
+					<img class="card-img-top img-fluid" src="./images/amp-local.PNG" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">A.M.P. Local Landing Page</h3>
+					<p class="card-text">Google has spent alot of time and money into reaserching users and have decided
+						that, guess what, users like fast websites. Googles Accelerated Mobile Pages (A.M.P.)
+						specification was developed with speed and a smooth, non-jittery page load in mind. According go
+						Google: "Faster landing pages typically lead to more conversions" and "Landing page experience
+						is an important factor for your Quality Score and Ad Rank". What does that mean? Not only are
+						your users more likely to convert but with a higher Quality Score your PPC Ads will rank higher
+						- leading to better posible page position and cheeper overall campaign costs! This project was
+						undertaken to create a boilerplate of BowlerHats "ideal local landing page" just beceause I
+						wanted to test out some of AMP's components. Read more in the projects repo by clicking below.
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-google"></i> - Googles AMP pages are FAST! Especially
+						when served from the AMP cache which is free for amp pages.</li>
+					<li class="list-group-item"><i class="fa fa-address-card"></i> - AMP specific dynamic features are
+						designed to reduce on load times and render blocking scripts while still offering interactions
+						users are used to.</li>
+					<li class="list-group-item"><i class="fa fa-smile-o"></i> - Testimonial sliders, Maps, Social Media
+						buttons and other landing page staples are all posible within the AMP framework.</li>
+					<li class="list-group-item"><i class="fa fa-money"></i> - Ad campaigns can have higher conversions
+						with a higher Ad quality score resulting in a higher R.O.I. and lower C.P.A.!</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/amp-local-landing-page"
+						class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Google MDL PWA-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/mdl_pwa_trial">
+					<img class="card-img-top img-fluid" src="./images/mdl-pwa-proj.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Google MDL 2.0</h3>
+					<p class="card-text">This project is an updated version of an older project listed below. I referb'd
+						this project to turn it into a Progressive Web App, Adding a service worker to cache all
+						reqested resources. Why? TLDR: so it can still work offline. Want to know more - I wrote up a
+						whole thing on it! Check it out by clicking "View Project" below:</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-google"></i> - Designed Around Google's Material Design
+						Specifications.</li>
+					<li class="list-group-item"><i class="fa fa-google-plus-square"></i> - A Framework Focused On
+						Design!</li>
+					<li class="list-group-item"><i class="fa fa-fighter-jet"></i> - Faaaast! After a fairly small
+						initial pageload, subsequent visits can take under half-of-a-half-of-a-second to load!</li>
+					<li class="list-group-item"><i class="fa fa-ban"></i> - Load it once and its cached - the page, the
+						assets, the external assets - everything! Once you visit a page you can revisit, even if
+						offline. </li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/mdl_pwa_trial" class="btn btn-primary center-block">View
+						Project</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Azure CMS Setup        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="https://github.com/fullmetalfenix/azure-cms-setup">
+					<img class="card-img-top img-fluid" src="./images/azure-cms-setup-2.jpg" alt="Card image cap"></a>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">Azure CMS Setup</h3>
+					<p class="card-text blue">In this project that was completed as part of my Azure Developer
+						Nanodegree coursework at Udacity I was given a Python / Flask CMS and tasked with deploying it
+						to a webapp / managed Paas service. First I had to add an azure SQL Server instance / Database
+						for storing articles and users, then add a blob storage container for the article images and
+						lastly I had to add 'Sign in with Microsoft' functionality through the MSAL, logging successful
+						and unsuccessful login attempts. Although the project is not live (leaving some resources live
+						in Azure = $) I have linked to a repo with some of the code (notably the MSAL implementation) as
+						well as some screenshots from the project as well as a write up required that outlines some of
+						the choices I made concerning the applications hosting.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-database"></i> - Hooked up a SQL Server / Database
+						instance in Azure to this CMS Framework provided</li>
+					<li class="list-group-item"><i class="fa fa-server"></i> - Got the application code up and running
+						on a webapp instance (No more bare-bones server management and updates required!).</li>
+					<li class="list-group-item"><i class="fa fa-windows"></i> - Implimented Authentication through the
+						Microsoft Authentication Library (MSAL)</li>
+					<li class="list-group-item"><i class="fa fa-pencil"></i> - Logged successful & unsuccessful login
+						attempts for security monitoring.</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/azure-cms-setup"
+						class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!--Bootstrap 4 project        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="./conf layout/index.html">
+					<img class="card-img-top img-fluid" src="./images/bootstrap4.jpg" alt="Card image cap"></a>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">Bootstrap 4</h3>
+					<p class="card-text blue">Bootstrap 3 Is Twitter's widely adopted mobile first framework for laying
+						out and styling content on the web quickly and responsively. The upcoming release of Bootstrap 4
+						adds some new features as well as some changes to older legacy functionality. This project was
+						done to familiarize myself with the upcoming specifications for the Bootstrap 4 Framework.
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-twitter"></i> - New Intuitive Syntax For Legacy
+						Twitter Bootstrap 3.0 Features</li>
+					<li class="list-group-item"><i class="fa fa-align-center"></i> - New Utility Classes For Content
+						Layout & Spacing</li>
+					<li class="list-group-item"><i class="fa fa-plus-circle"></i> - New Component Classes</li>
+					<li class="list-group-item"><i class="fa fa-file-text-o"></i> - New Ways To Layout Forms And New
+						Custom Form Controls</li>
+				</ul>
+				<div class="card-block">
+					<a href="./conf layout/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!--  3d transforms project  -->
+		<div class="col-md-12 hidden-sm-down col-lg-4">
+			<div class="card">
+				<a href="./3d-transforms/index.html">
+					<img class="card-img-top img-fluid" src="./images/3d-trans.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">3D Transforms With CSS</h3>
+					<p class="card-text">Although widely regarded as the "content styling" part of the big 3 of front
+						end web languages, CSS has slowly been leaching some of the interactive aspects away from
+						JavaScript. Today, CSS can be used for a lot more than just styling elements and layouts. In
+						this project, I practiced using CSS in such a way by creating these 3D presentation cubes from
+						provided photos and divs as a dynamic way to present content.</p>
+					<br>
+					<p style="color: #c50f0f; text-decoration:">*Not Yet Cross Browser Compatible!</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-desktop"></i> - Setting The Stage With Perspective And
+						Perspective-Origin</li>
+					<li class="list-group-item"><i class="fa fa-clock-o"></i> - Deciding On Transition Timing.</li>
+					<li class="list-group-item"><i class="fa fa-eye"></i> - Controlling Visibility</li>
+					<li class="list-group-item"><i class="fa fa-repeat"></i> - Setting Transforms To Rotate And Position
+						Content.</li>
+				</ul>
+				<div class="card-block">
+					<a href="./3d-transforms/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+		<!--  3d transforms project  -->
+		<div class="col-md-12 hidden-sm-down col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/php">
+					<img class="card-img-top img-fluid" src="./images/php-site.png" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">PHP / Bootstrap Site</h3>
+					<p class="card-text">This project was created from scratch to demo some PHP and Bootstrap. I'm just
+						demo-ing some of the standard bootstrap stuff and some PHP for pulling together a site with a
+						few templates, partials etc. I've done a few things here I wouldn't recomend such as adding an
+						unnessisary loop for the homepage and have not expanded / abstracted as much as I might have if
+						this wasn't a <i>very basic</i> demo.</p>
+					<br>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-scissors"></i> - Templated out site for modularity, code
+						reusability and easy maintenence</li>
+					<li class="list-group-item"><i class="fa fa-building-o"></i> - Utilizes Bootstrap 4 for site
+						structure.</li>
+					<li class="list-group-item"><i class="fa fa-location-arrow "></i> - Basic PHP form with a redirect
+						to a thank you page</li>
+					<li class="list-group-item"><i class="fa fa-snowflake-o"></i> - Added some cool CSS effects
+						(Knockout text, Slider shadow).</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/php" class="btn btn-primary center-block">View
+						Project</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- Google MDL Site-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="gmdl/index.html">
+					<img class="card-img-top img-fluid" src="./images/coffee.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Google MDL project</h3>
+					<p class="card-text">Google Material Design Specifications are out alerting designers to Googles
+						preferred and recommended design specs. After reading through the Material Design specifications
+						I wanted to use what I had learned in a project and luckily I found a framework that would allow
+						me to easily do so! I chose to do this project in Google MDL (Material Design Lite) because it
+						was designed in close co-operation with Googles own Chrome UX and Material Design teams. This
+						framework is even used in some of Google's own properties!</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-google"></i> - Designed Around Google's Material Design
+						Specifications.</li>
+					<li class="list-group-item"><i class="fa fa-balance-scale"></i> - A Framework Focused On Design!
+					</li>
+					<li class="list-group-item"><i class="fa fa-mobile"></i> - Site Created In A Mobile Mindset.</li>
+					<li class="list-group-item"><i class="fa fa-object-group"></i> - Styled Elements Like Cards And
+						Nav-bars.</li>
+				</ul>
+				<div class="card-block">
+					<a href="gmdl/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- flexbox -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="./flexbox/index.html">
+					<img class="card-img-top img-fluid" src="./images/flexbox.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">CSS3 Layouts Using Flexbox</h3>
+					<p class="card-text">
+					<p>Can we finally admit that some CSS layout techniques are a bit of a hack in that they were
+						developed using styling in a way it wasn't really intended for? Good. Now that that's over and
+						flexbox specifications have been stabilized a bit more we can move on to using flexbox for
+						layouts like I have learned to do while working on this project here.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-exchange"></i> - Accessibility Friendly Content
+						Ordering! You Can Finally Re-arrange Content Independent Of The Markup! This Is Great News For
+						Screen-reader Accessibility Fanatics.</li>
+					<li class="list-group-item"><i class="fa fa-columns"></i> - Controlling Container Spacing And
+						Element Alignment (Vertical Centering Too!)</li>
+					<li class="list-group-item"><i class="fa fa-tasks"></i> - Navs, Cols, Sticky Footers, You Name It!
+						Flexbox Can Simplify Many Previously Tricky CSS Based Elements. </li>
+				</ul>
+				<div class="card-block">
+					<a href="./flexbox/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- Jekyll -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card">
+				<a href="http://riselikefenix.github.io/playtendbox">
+					<img class="card-img-top img-fluid" src="./images/blog.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Blogging With Jekyll!</h3>
+					<p class="card-text">When my brother needed a blog for his video game podcast, I saw it as the
+						perfect excuse to learn to use Jekyll. Jekyll is a html template engine that uses markdown
+						syntax for to easily create blogpost and is easy to learn, even for non technically inclined
+						people. The best part? You can host and update Jekyll blogs on Github for free! *Sidenote,
+						please don't hold me responsible for any of his content ':/
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-keyboard-o"></i> - Installing, Setting Up and
+						Configuring A Jekyll blog.</li>
+					<li class="list-group-item"><i class="fa fa-cogs"></i> - Jekyll Uses The Liquid Templating Language
+						To Bring Partials Together Into A Working Site.</li>
+					<li class="list-group-item"><i class="fa fa-magic"></i> - YAML Front Matter Blocks Followed By
+						Markdown Formatted Content Can Easily Create New Static Post Pages Without Touching The HTML.
+					</li>
+					<li class="list-group-item"><i class="fa fa-terminal"></i> - No CMS Or Database Needed! Github Acts
+						As A Defacto CMS, And No Database Means Fewer Chances For Errors To Occur.</li>
+				</ul>
+				<div class="card-block">
+					<a href="http://riselikefenix.github.io/playtendbox" class="btn btn-primary center-block">View
+						Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- AMP -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="./googleamp/index.html">
+					<img class="card-img-top img-fluid" src="./images/google-amp.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Google AMP </h3>
+					<p class="card-text">Google's new Accelerated Mobile Pages specifications are, in a way, a throwback
+						to 90's web design adapted to bolster user experience in matters concerning modern mobile web
+						surfing. In this project I familiarized myself with some of AMPs specifications and
+						capabilities. </p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-rocket"></i> - Embedded styles, Predefined Image Size
+						And Extremely Limited JavaScript Usage Make For An Extremely Fast Mobile Experience. </li>
+					<li class="list-group-item"><i class="fa fa-link"></i> - AMP Pages Link From, Not Replace, Your
+						Traditional Pages To Increase Your Mobile Users Experience.</li>
+					<li class="list-group-item"><i class="fa fa-bolt"></i> - You Can Add & Configure AMP Extensions For
+						Common Elements But With Speedy, Lightweight, Mobile Friendly Functionality.</li>
+					<li class="list-group-item"><i class="fa fa-check-square-o"></i> - You Can Easily Check Page
+						Validation By Adding "<code>#development=1</code>" To The End Of An AMP Page's URL!</li>
+				</ul>
+				<div class="card-block">
+					<a href="./googleamp/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!--     Angular App   -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="./angular/index.html">
+					<img class="card-img-top img-fluid" src="./images/angular.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Angular App</h3>
+					<p class="card-text">Angular is Google's flavor of JavaScript MVC frameworks used for quickly
+						developing single page web applications. In this project I familiarized myself with the
+						declarative nature of developing within the Angular framework and learned more about client side
+						application frameworks in general.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-file-word-o"></i> - Filling A Template/View With Data
+						Using (Scoped) Controllers And Directives!</li>
+					<li class="list-group-item"><i class="fa fa-smile-o"></i> - Making Commen Tasks Easy With Angulars
+						Built In Directives Or Make Your Own Custom Ones!</li>
+					<li class="list-group-item"><i class="fa fa-server"></i> - Using Services to Request, Update And
+						Create New Data.</li>
+				</ul>
+				<div class="card-block">
+					<a href="./angular/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- transitions / transforms -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="css_transitions/index.html">
+					<img class="card-img-top img-fluid" src="./images/transforms.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">CSS3 Transitions and Transforms</h3>
+					<p class="card-text">
+					<p>Transforms and transitions are designed to "delight" the user, give feedback based on
+						interactions and provide information on element states. CSS3 makes it easy to add interactive
+						elements to webpages without bloating markup with unnecessary JavaScript</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-spinner"></i> - Control Animation Transition Timing,
+						Speed, And Delay. </li>
+					<li class="list-group-item"><i class="fa fa-outdent"></i> - Scale, Translate, Slide And Position
+						Elements.</li>
+					<li class="list-group-item"><i class="fa fa-users"></i> - Increase User Interaction With Site Using
+						Pleasing Responses And Visual Cues Based On User Actions.</li>
+				</ul>
+				<div class="card-block">
+					<a href="css_transitions/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- jquery -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="jquery-page/index.html">
+					<img class="card-img-top img-fluid" src="./images/jquery-plugins.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Websites With jQuery Plugins</h3>
+					<p class="card-text">jQuery is a powerful library for adding cross browser compatible interactive
+						features to your sites, but what happens when it fails to have a feature your looking for? You
+						could write it yourself, but an even easier, quicker option is to use high quality well
+						supported jQuery plugins. In this project I learned to do just that.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-plug"></i> - Selecting Well Supported, High Quality
+						jQuery Plugins With Easy To Understand Documentation.</li>
+					<li class="list-group-item"><i class="fa fa-refresh"></i> - Incorporating And Configuring A Plugin
+						For A Simple Full Page Animated Transition Between Pages.</li>
+					<li class="list-group-item"><i class="fa fa-upload"></i> - Using Plugins To Add A Sticky Navigation
+						Bar.</li>
+					<li class="list-group-item"><i class="fa fa-picture-o"></i> - Using Plugins To Crete A Carousel To
+						Display The Sites Main Features</li>
+				</ul>
+				<div class="card-block">
+					<a href="jquery-page/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- accessability project -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="./accessable/index.html">
+					<img class="card-img-top img-fluid" src="./images/accessable.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Website Accessibility Concerns</h3>
+					<p class="card-text">As the Internet of things expands accessibility concerns become more and more
+						important. As people become more dependent on the web for important tasks, information
+						dispersion and entertainment hearing, vision and mobility concerns need to be addressed. In this
+						project I continued my education concerning some of these issues.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-low-vision"></i> - Hi Contrasting Colors To Aid With
+						Some Color Impairments</li>
+					<li class="list-group-item"><i class="fa fa-blind"></i> - Screen Reader Friendly Content For Some
+						Vision Impairments</li>
+					<li class="list-group-item"><i class="fa fa-universal-access"></i> - Accessible Markup For Forms,
+						Tables And Other Data Presentation Tools.</li>
+				</ul>
+				<div class="card-block">
+					<a href="./accessable/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!-- Sass Project-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="./sass-project/index.html">
+					<img class="card-img-top img-fluid" src="./images/sass-project.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Gettin Sass(y) </h3>
+					<p class="card-text">
+					<p>The Syntactically Awesome Style Sheet Language Describes itself as "CSS With Superpowers" and
+						although I love the cleaver things you can do with CSS, I agree the options SASS adds can
+						supercharge the organization of your CSS. This project was fist done as a refresher on CSS
+						layout and styling techniques, and then re-factored to get used to using the Sass CSS
+						preprocessor.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-arrows-alt"></i> - Setting Up A SASS Environment</li>
+					<li class="list-group-item"><i class="fa fa-sitemap"></i> - Using Partials And Imports To Organize
+						Code</li>
+					<li class="list-group-item"><i class="fa fa-sort-amount-desc"></i> - Using Variables & Mixins To
+						Make Code Even DRYer</li>
+					<li class="list-group-item"><i class="fa fa-retweet"></i> - Identifying Common Code Patterns For
+						Reusable Mix-ins With Arguments That Dynamically Alter CSS Values. </li>
+					<li class="list-group-item"><i class="fa fa-file-code-o"></i> - Defining outputted CSS formatting
+						for optimization during development & production. </li>
+				</ul>
+				<div class="card-block">
+					<a href="./sass-project/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!--   slide in menu     -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="./popin-menu/index.html">
+					<img class="card-img-top img-fluid" src="./images/side-menu.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Popin' Menu Using jQuery</h3>
+					<p class="card-text">Practice Makes Perfect! jQuery provides an easy way of adding a togglable (and
+						trendy) off-screen navigation that slides in from the side.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-usd"></i> - Initial Setup Of The Skeleton For The
+						Program Using $(document).ready().</li>
+					<li class="list-group-item"><i class="fa fa-location-arrow"></i> - Using The click() Function To
+						Capture User Interaction.</li>
+					<li class="list-group-item"><i class="fa fa-arrow-circle-o-right"></i> - Animate A Menu Located
+						Offscreen To Slide Into And Out Of The Browser Window.</li>
+				</ul>
+				<div class="card-block">
+					<a href="./popin-menu/index.html" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+		<!--/ main container  -->
+	</div>
+	<!-- jQuery first, then Bootstrap JS. -->
+	<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh3U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+</body>
+
 </html>

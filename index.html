@@ -225,8 +225,8 @@
 						built quite a few WordPress sites myself and having worked on many more I feal extremely
 						familiar with the back end dashboard of WP so using it for a headless CMS really appealed to me.
 						This from scratch project is a barebones, two file, headless wordpress setup using react via cdn
-						that should take only a minute or two to set up. Want to
-						about the two step set up of this project? Click here to <a
+						that should take only a minute or two to set up. Want to check out
+						the two step set up of this project? Click here to <a
 							href="https://github.com/fullmetalfenix/headless-wordpress-skeleton"
 							alt="read more link to a github repo for this project">read more about this project</a> or
 						take a look yourself with the "View Project" link below</p>
@@ -245,7 +245,8 @@
 							CDN's for React.js and Babel.js with only 2 pages to add to a classic WP instalation</li>
 				</ul>
 				<div class="card-block">
-					<a href="https://github.com/fullmetalfenix/headless-wordpress-skeleton" class="btn btn-primary center-block">View Project</a>
+					<a href="https://github.com/fullmetalfenix/headless-wordpress-skeleton"
+						class="btn btn-primary center-block">View Project</a>
 				</div>
 			</div>
 		</div>
@@ -257,20 +258,200 @@
 					<img class="card-img-top img-fluid" src="./images/cloudflare-starter.jpg" alt="Card image cap"></a>
 				<div class="card-block blue ">
 					<h3 class="card-title blue">Cloudflare Developers Challange</h3>
-					<p class="card-text blue">This project was done as part of the Cloudflare Developers Summer Challenge 2021. Participants were tasked with creating a project that used at least two technologies from Cloudflare's developer platform - for this project I chose Cloudflare Pages and Cloudflare workers. Cloudflare pages was used for static site hosting and Cloudflare workers was used for 'serverlessly' processing the form. I used AMP to code the page as Cloudflare pages is known for its speed and so is AMP. I had to customize the response headers a bit as AMP can be VERY rigid with its form processing rules and I used the SendGrid API to trigger an email on form submission that sends out a link to the repo on Github.  
+					<p class="card-text blue">This project was done as part of the Cloudflare Developers Summer
+						Challenge 2021. Participants were tasked with creating a project that used at least two
+						technologies from Cloudflare's developer platform - for this project I chose Cloudflare Pages
+						and Cloudflare workers. Cloudflare pages was used for static site hosting and Cloudflare workers
+						was used for 'serverlessly' processing the form. I used AMP to code the page as Cloudflare pages
+						is known for its speed and so is AMP. I had to customize the response headers a bit as AMP can
+						be VERY rigid with its form processing rules and I used the SendGrid API to trigger an email on
+						form submission that sends out a link to the repo on Github.
 					</p>
 				</div>
 				<ul class="list-group list-group-flush">
-					<li class="list-group-item blue"><i class="fa fa-github-alt"></i> - Cloudflare Pages static hosting on it's edge network uses facilitates continuous integration and deployment - it deploys straight from Github!</li>
-					<li class="list-group-item"><i class="fa fa-level-up"></i> - AMP helps keep the projects lighthouse score high. </li>
-					<li class="list-group-item"><i class="fa  fa-clock-o"></i> - The serverless contact form is processed by Cloudflare workers - features 0ms cold starts as well as local development and testing with the Wrangler CLI!.
+					<li class="list-group-item blue"><i class="fa fa-github-alt"></i> - Cloudflare Pages static hosting
+						on it's edge network uses facilitates continuous integration and deployment - it deploys
+						straight from Github!</li>
+					<li class="list-group-item"><i class="fa fa-level-up"></i> - AMP helps keep the projects lighthouse
+						score high. </li>
+					<li class="list-group-item"><i class="fa  fa-clock-o"></i> - The serverless contact form is
+						processed by Cloudflare workers - features 0ms cold starts as well as local development and
+						testing with the Wrangler CLI!.
 					</li>
-					<li class="list-group-item"><i class="fa fa-mail-forward"></i> - Once the form is processed - uses SendGrid to send out an email with the repo link and triggers an asynchronous success / failure response for the user in the browser.</li>
-					<li class="list-group-item"><i class="fa fa-money"></i> - Couldn't really be less expensive - all operating on free tiers!</li>
+					<li class="list-group-item"><i class="fa fa-mail-forward"></i> - Once the form is processed - uses
+						SendGrid to send out an email with the repo link and triggers an asynchronous success / failure
+						response for the user in the browser.</li>
+					<li class="list-group-item"><i class="fa fa-money"></i> - Couldn't really be less expensive - all
+						operating on free tiers!</li>
 				</ul>
 				<div class="card-block">
-					<a href="https://cloudflare-project-ejc.pages.dev/"
+					<a href="https://cloudflare-project-ejc.pages.dev/" class="btn btn-primary center-block">View
+						Project</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Shopify Polaris Project        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="https://polaris-6z7.pages.dev/">
+					<img class="card-img-top img-fluid" src="./images/polaris-screenshot.jpg" alt="Card image cap"></a>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">Shopify Polaris Project</h3>
+					<p class="card-text blue">
+						This project was undertaken in my spare time to get familiar with the capabilities of Shopify's
+						Polaris design system / React component library. I expanded the functionality of some components
+						in some places (the top bar), customized a few things (light / dark mode theme toggle) but
+						mostly used native functionality in order to get a general feel for the layout and styling that
+						is native to Polaris. I may go back someday and expand the functionality so that you can preview
+						"emails" but for now I accomplished what I set out to do. What did I attempt? The project was
+						"inspired" by the layout for GMail.<br /> <br />* Shopify has since developed a new component
+						library "Hydrogen".
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-shopping-bag"></i> - Done using Shopify's dashboard
+						component library "Polaris"</li>
+					<li class="list-group-item"><i class="fa fa-moon-o"></i> - Toggle in the top bar between light and
+						dark mode. </li>
+					<li class="list-group-item"><i class="fa fa-pencil-square-o"></i> - Modal popup to compose emails.
+					</li>
+					<li class="list-group-item"><i class="fa fa-folder-open"></i> - "Emails" are sorted into buckets
+						dependant on the assigned type.</li>
+					<li class="list-group-item"><i class="fa fa-times"></i> - Dismissable info area tells you what the
+						project is about or links back to Github.</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://polaris-6z7.pages.dev/" class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Azure CMS Setup        -->
+		<div class="col-md-12 col-lg-4">
+			<div class="card blue">
+				<a href="https://github.com/fullmetalfenix/azure-cms-setup">
+					<img class="card-img-top img-fluid" src="./images/azure-cms-setup-2.jpg" alt="Card image cap"></a>
+				<div class="card-block blue ">
+					<h3 class="card-title blue">Azure CMS Setup</h3>
+					<p class="card-text blue">In this project that was completed as part of my Azure Developer
+						Nanodegree coursework at Udacity I was given a Python / Flask CMS and tasked with deploying it
+						to a webapp / managed Paas service. First I had to add an azure SQL Server instance / Database
+						for storing articles and users, then add a blob storage container for the article images and
+						lastly I had to add 'Sign in with Microsoft' functionality through the MSAL, logging successful
+						and unsuccessful login attempts. Although the project is not live (leaving some resources live
+						in Azure = $) I have linked to a repo with some of the code (notably the MSAL implementation) as
+						well as some screenshots from the project & a write up required that outlines some of
+						the choices I made concerning the applications hosting.</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item blue"><i class="fa fa-database"></i> - Hooked up a SQL Server / Database
+						instance in Azure to this CMS Framework provided</li>
+					<li class="list-group-item"><i class="fa fa-server"></i> - Got the application code up and running
+						on a webapp instance (No more bare-bones server management and updates required!).</li>
+					<li class="list-group-item"><i class="fa fa-windows"></i> - Implimented Authentication through the
+						Microsoft Authentication Library (MSAL)</li>
+					<li class="list-group-item"><i class="fa fa-pencil"></i> - Logged successful & unsuccessful login
+						attempts for security monitoring.</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/azure-cms-setup"
 						class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Amp Local Landing Page-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/amp-local-landing-page">
+					<img class="card-img-top img-fluid" src="./images/amp-local.PNG" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">A.M.P. Local Landing Page</h3>
+					<p class="card-text">Google has spent alot of time and money into reaserching users and have decided
+						that, guess what, users like fast websites. Googles Accelerated Mobile Pages (A.M.P.)
+						specification was developed with speed and a smooth, non-jittery page load in mind. According go
+						Google: "Faster landing pages typically lead to more conversions" and "Landing page experience
+						is an important factor for your Quality Score and Ad Rank". What does that mean? Not only are
+						your users more likely to convert but with a higher Quality Score your PPC Ads will rank higher
+						- leading to better posible page position and cheeper overall campaign costs! This project was
+						undertaken to create a boilerplate of BowlerHats "ideal local landing page" just beceause I
+						wanted to test out some of AMP's components. Read more in the projects repo by clicking below.
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-google"></i> - Googles AMP pages are FAST! Especially
+						when served from the AMP cache which is free for amp pages.</li>
+					<li class="list-group-item"><i class="fa fa-address-card"></i> - AMP specific dynamic features are
+						designed to reduce on load times and render blocking scripts while still offering interactions
+						users are used to.</li>
+					<li class="list-group-item"><i class="fa fa-smile-o"></i> - Testimonial sliders, Maps, Social Media
+						buttons and other landing page staples are all posible within the AMP framework.</li>
+					<li class="list-group-item"><i class="fa fa-money"></i> - Ad campaigns can have higher conversions
+						with a higher Ad quality score resulting in a higher R.O.I. and lower C.P.A.!</li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/amp-local-landing-page"
+						class="btn btn-primary center-block">View Project</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Express / Passport-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/passportjs-local">
+					<img class="card-img-top img-fluid" src="./images/express-login.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Express.js / Passport.js</h3>
+					<p class="card-text">This was a project I did so long ago I don't remember if it was part of a tutorial, blog post or if I was just going through the documentation but here it is. This project uses the express-generator boilerplate and implements basic / local user login through passportjs, checking a flat file repository / 'database' for user accounts. I know the account info is in the Repo here (which I wouldn't normally do) but as they are fake accounts it doesn't matter in this extremely specific case. I also used a frosted glass CSS effect because I really wanted to use it in a project - I've since used it in production applications and I STILL think it looks cool. </p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-folder"></i> - Reads then stores user info through
+						sessions in an encrypted cookie with HttpOnly flag.</li>
+					<li class="list-group-item"><i class="fa fa-long-arrow-right"></i> - Once logged in redirects user
+						to personalized welcome page based on role ('/welcome')</li>
+					<li class="list-group-item"><i class="fa fa-lock"></i> - Implements a basic protected route.
+						('/protected') only available if logged in as an Admin level account & a modular general routes
+						file wich any logged in user can see.</li>
+					<li class="list-group-item"><i class="fa fa-user-circle"></i> - Profile page ('/profile') reads your account
+						info (name) once logged in. </li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/passportjs-local"
+						class="btn btn-primary center-block">View
+						Project</a>
+				</div>
+			</div>
+		</div> <!-- Google MDL PWA-->
+		<div class="col-md-12 col-lg-4">
+			<div class="card">
+				<a href="https://github.com/fullmetalfenix/mdl_pwa_trial">
+					<img class="card-img-top img-fluid" src="./images/mdl-pwa-proj.jpg" alt="Card image cap"></a>
+				<div class="card-block">
+					<h3 class="card-title">Google MDL 2.0</h3>
+					<p class="card-text">This project is an updated version of an older project listed below. I referb'd
+						this project to turn it into a Progressive Web App, Adding a service worker to cache all
+						reqested resources. Why? TLDR: so it can still work offline. Want to know more - I wrote up a
+						whole thing on it! Check it out by clicking "View Project" below:</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><i class="fa fa-google"></i> - Designed Around Google's Material Design
+						Specifications.</li>
+					<li class="list-group-item"><i class="fa fa-google-plus-square"></i> - A Framework Focused On
+						Design!</li>
+					<li class="list-group-item"><i class="fa fa-fighter-jet"></i> - Faaaast! After a fairly small
+						initial pageload, subsequent visits can take under half-of-a-half-of-a-second to load!</li>
+					<li class="list-group-item"><i class="fa fa-ban"></i> - Load it once and its cached - the page, the
+						assets, the external assets - everything! Once you visit a page you can revisit, even if
+						offline. </li>
+				</ul>
+				<div class="card-block">
+					<a href="https://github.com/fullmetalfenix/mdl_pwa_trial" class="btn btn-primary center-block">View
+						Project</a>
 				</div>
 			</div>
 		</div>
@@ -310,107 +491,6 @@
 				</ul>
 				<div class="card-block">
 					<a href="https://sharp-euclid-85f5a5.netlify.com/index.html"
-						class="btn btn-primary center-block">View Project</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Amp Local Landing Page-->
-		<div class="col-md-12 col-lg-4">
-			<div class="card">
-				<a href="https://github.com/fullmetalfenix/amp-local-landing-page">
-					<img class="card-img-top img-fluid" src="./images/amp-local.PNG" alt="Card image cap"></a>
-				<div class="card-block">
-					<h3 class="card-title">A.M.P. Local Landing Page</h3>
-					<p class="card-text">Google has spent alot of time and money into reaserching users and have decided
-						that, guess what, users like fast websites. Googles Accelerated Mobile Pages (A.M.P.)
-						specification was developed with speed and a smooth, non-jittery page load in mind. According go
-						Google: "Faster landing pages typically lead to more conversions" and "Landing page experience
-						is an important factor for your Quality Score and Ad Rank". What does that mean? Not only are
-						your users more likely to convert but with a higher Quality Score your PPC Ads will rank higher
-						- leading to better posible page position and cheeper overall campaign costs! This project was
-						undertaken to create a boilerplate of BowlerHats "ideal local landing page" just beceause I
-						wanted to test out some of AMP's components. Read more in the projects repo by clicking below.
-					</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item"><i class="fa fa-google"></i> - Googles AMP pages are FAST! Especially
-						when served from the AMP cache which is free for amp pages.</li>
-					<li class="list-group-item"><i class="fa fa-address-card"></i> - AMP specific dynamic features are
-						designed to reduce on load times and render blocking scripts while still offering interactions
-						users are used to.</li>
-					<li class="list-group-item"><i class="fa fa-smile-o"></i> - Testimonial sliders, Maps, Social Media
-						buttons and other landing page staples are all posible within the AMP framework.</li>
-					<li class="list-group-item"><i class="fa fa-money"></i> - Ad campaigns can have higher conversions
-						with a higher Ad quality score resulting in a higher R.O.I. and lower C.P.A.!</li>
-				</ul>
-				<div class="card-block">
-					<a href="https://github.com/fullmetalfenix/amp-local-landing-page"
-						class="btn btn-primary center-block">View Project</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Google MDL PWA-->
-		<div class="col-md-12 col-lg-4">
-			<div class="card">
-				<a href="https://github.com/fullmetalfenix/mdl_pwa_trial">
-					<img class="card-img-top img-fluid" src="./images/mdl-pwa-proj.jpg" alt="Card image cap"></a>
-				<div class="card-block">
-					<h3 class="card-title">Google MDL 2.0</h3>
-					<p class="card-text">This project is an updated version of an older project listed below. I referb'd
-						this project to turn it into a Progressive Web App, Adding a service worker to cache all
-						reqested resources. Why? TLDR: so it can still work offline. Want to know more - I wrote up a
-						whole thing on it! Check it out by clicking "View Project" below:</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item"><i class="fa fa-google"></i> - Designed Around Google's Material Design
-						Specifications.</li>
-					<li class="list-group-item"><i class="fa fa-google-plus-square"></i> - A Framework Focused On
-						Design!</li>
-					<li class="list-group-item"><i class="fa fa-fighter-jet"></i> - Faaaast! After a fairly small
-						initial pageload, subsequent visits can take under half-of-a-half-of-a-second to load!</li>
-					<li class="list-group-item"><i class="fa fa-ban"></i> - Load it once and its cached - the page, the
-						assets, the external assets - everything! Once you visit a page you can revisit, even if
-						offline. </li>
-				</ul>
-				<div class="card-block">
-					<a href="https://github.com/fullmetalfenix/mdl_pwa_trial" class="btn btn-primary center-block">View
-						Project</a>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- Azure CMS Setup        -->
-		<div class="col-md-12 col-lg-4">
-			<div class="card blue">
-				<a href="https://github.com/fullmetalfenix/azure-cms-setup">
-					<img class="card-img-top img-fluid" src="./images/azure-cms-setup-2.jpg" alt="Card image cap"></a>
-				<div class="card-block blue ">
-					<h3 class="card-title blue">Azure CMS Setup</h3>
-					<p class="card-text blue">In this project that was completed as part of my Azure Developer
-						Nanodegree coursework at Udacity I was given a Python / Flask CMS and tasked with deploying it
-						to a webapp / managed Paas service. First I had to add an azure SQL Server instance / Database
-						for storing articles and users, then add a blob storage container for the article images and
-						lastly I had to add 'Sign in with Microsoft' functionality through the MSAL, logging successful
-						and unsuccessful login attempts. Although the project is not live (leaving some resources live
-						in Azure = $) I have linked to a repo with some of the code (notably the MSAL implementation) as
-						well as some screenshots from the project as well as a write up required that outlines some of
-						the choices I made concerning the applications hosting.</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item blue"><i class="fa fa-database"></i> - Hooked up a SQL Server / Database
-						instance in Azure to this CMS Framework provided</li>
-					<li class="list-group-item"><i class="fa fa-server"></i> - Got the application code up and running
-						on a webapp instance (No more bare-bones server management and updates required!).</li>
-					<li class="list-group-item"><i class="fa fa-windows"></i> - Implimented Authentication through the
-						Microsoft Authentication Library (MSAL)</li>
-					<li class="list-group-item"><i class="fa fa-pencil"></i> - Logged successful & unsuccessful login
-						attempts for security monitoring.</li>
-				</ul>
-				<div class="card-block">
-					<a href="https://github.com/fullmetalfenix/azure-cms-setup"
 						class="btn btn-primary center-block">View Project</a>
 				</div>
 			</div>

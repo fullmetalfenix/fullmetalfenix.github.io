@@ -24,6 +24,8 @@ self.addEventListener('install', function(event){
                     '/images/azure-cms-setup-2.jpg',
                     '/images/amp-local.PNG',
                     './images/cloudflare-starter.jpg',
+                    './images/polaris-screenshot.jpg',
+                    './images/express-login.jpg',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
                     'manifest.json'	   

@@ -26,6 +26,7 @@ self.addEventListener('install', function(event){
                     '/images/cloudflare-starter.jpg',
                     '/images/polaris-screenshot.JPG',
                     '/images/express-login.JPG',
+                    './images/gatsby.JPG',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
                     'manifest.json'	   

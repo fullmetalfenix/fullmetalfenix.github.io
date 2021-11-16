@@ -27,6 +27,7 @@ self.addEventListener('install', function(event){
                     '/images/polaris-screenshot.JPG',
                     '/images/express-login.JPG',
                     './images/gatsby.JPG',
+                    './images/exercise-tracker.JPG',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
                     'manifest.json'	   

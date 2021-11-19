@@ -29,6 +29,7 @@ self.addEventListener('install', function(event){
                     './images/gatsby.JPG',
                     './images/exercise-tracker.JPG',
                     './images/url-shortener.JPG',
+                    './images/neighborly-app.jpg',
                     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css',
                     'https://fonts.googleapis.com/css?family=Prompt',
                     'manifest.json'	   

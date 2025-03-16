@@ -5,6 +5,7 @@ self.addEventListener('install', function(event){
                 [
                     '/',
                     'index.html',
+                    './images/git-fep.jpg',
                     'images/bootstrap4.jpg',
                     'images/3d-trans.jpg',
                     'images/coffee.jpg',
